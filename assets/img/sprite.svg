@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+<symbol id="mark" viewBox="0 0 220 250">
+<polygon points="0,0 70,0 70,170 38,248 0,212" fill="#B79EE8"/>
+<path class="tri" d="M88 17H136C173 17 197 38 197 66C197 88 192 102 188 112C204 122 208 142 208 168C208 204 182 233 140 233H52L88 166Z" fill="none" stroke="#FDBA0F" stroke-width="34" stroke-linejoin="miter"/>
+<polygon class="tri" points="114,76 172,124 114,172" fill="#FDBA0F"/>
+</symbol>
+<symbol id="arrow" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>

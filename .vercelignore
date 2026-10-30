@@ -1,0 +1,5 @@
+assets/img/raw/
+*.docx
+MASTER-PROMPT.md
+content/
+tools/

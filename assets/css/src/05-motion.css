@@ -1,0 +1,9 @@
+@layer motion {
+  @keyframes vt-out{to{opacity:0;transform:translateY(-20px) scale(.995)}}
+  @keyframes vt-in{from{opacity:0;transform:translateY(30px)}}
+  ::view-transition-old(root){animation:.4s var(--ease-io) both vt-out}
+  ::view-transition-new(root){animation:.6s var(--ease) .1s both vt-in}
+  .wipe{position:fixed;inset:0;z-index:1000;background:var(--yellow-500);clip-path:polygon(0 100%,100% 100%,100% 100%,0 100%);transition:clip-path .45s var(--ease-io);pointer-events:none}
+  .wipe.in{clip-path:polygon(0 0,100% 0,100% 100%,0 100%);pointer-events:all}
+  @media (prefers-reduced-motion:reduce){::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}}
+}
