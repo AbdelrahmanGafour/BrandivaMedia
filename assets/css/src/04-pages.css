@@ -273,6 +273,7 @@ html:not(.js) .flip .f,html:not(.js) .flip .b{position:static;transform:none;bac
 .ci a.row{display:flex;gap:1rem;align-items:center;padding:1.1rem 1.3rem;border:1px solid var(--ink-700);border-radius:20px;background:var(--ink-800);transition:border-color .3s,transform .5s var(--ease)}
 .ci a.row:hover{border-color:var(--yellow-500);transform:translateX(-6px)}
 .ci .ic{display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--grad);color:var(--ink-950);flex:none;font-weight:800}
+.ci .ic .fa{width:22px;height:22px}
 .err404{min-height:70svh;display:grid;place-items:center;text-align:center;padding-block:4rem;position:relative;isolation:isolate}
 .err404 .giant{-webkit-text-stroke-color:rgba(253,186,15,.5);transform:none;font-size:clamp(7rem,28vw,22rem)}
 }

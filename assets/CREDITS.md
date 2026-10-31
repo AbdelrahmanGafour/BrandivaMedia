@@ -21,3 +21,6 @@ All photos are from Unsplash and used under the Unsplash License (free for comme
 ## Missing
 
 - hero-video: not produced (ffmpeg is not installed).
+
+## Icons
+Social/brand icons: [Font Awesome Free 6.5.2](https://fontawesome.com) — icons licensed CC BY 4.0 (https://fontawesome.com/license/free). Self-hosted in `assets/img/fa-brands.svg`.

@@ -132,7 +132,12 @@ html:not(.js) .nav-desktop{display:flex;flex-wrap:wrap}
 .to-top:hover{border-color:var(--yellow-500);color:var(--yellow-500)}
 .giant{font-family:var(--font-lat);font-weight:800;direction:ltr;text-align:center;line-height:.8;font-size:clamp(4rem,19.5vw,19rem);letter-spacing:-.05em;color:transparent;-webkit-text-stroke:1.5px rgba(183,158,232,.45);margin-block-start:1rem;white-space:nowrap;user-select:none;transform:translateY(12%)}
 .socials{display:flex;gap:.5rem;flex-wrap:wrap}
-.socials a{display:grid;place-items:center;min-width:44px;min-height:44px;padding-inline:.9rem;border:1px solid var(--ink-700);border-radius:var(--r-pill);font-size:.85rem;color:var(--text-300)}
+.socials a{display:grid;place-items:center;width:44px;height:44px;border:1px solid var(--ink-700);border-radius:50%;color:var(--text-300);transition:background .3s,color .3s,border-color .3s,transform .5s var(--ease)}
+.socials a:hover{transform:translateY(-4px)}
+.fa{width:1.1em;height:1.1em;fill:currentColor;flex:none}
+.socials .fa{width:18px;height:18px}
+.fa-inline{display:inline-block;vertical-align:-.15em}
+.menu-foot .socials{width:100%}
 .socials a:hover{background:var(--purple-400);color:var(--ink-950);border-color:var(--purple-400)}
 .easter{cursor:pointer}
 .easter.boom .logo{animation:boom .9s var(--ease)}

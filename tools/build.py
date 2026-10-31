@@ -129,9 +129,17 @@ def header(cur, file="index.html"):
 </header>
 <div class="menu" id="menu" role="dialog" aria-label="{L("القائمة الرئيسية","Main menu")}">
   <nav class="menu-links" aria-label="{L("القائمة","Menu")}">{menu}</nav>
-  <div class="menu-foot"><a class="link-u" href="contact.html">{L("اطلب استشارة مجانية","Request a free consultation")}</a><a class="link-u" href="{sw_href}" hreflang="{sw_lang}" lang="{sw_lang}">{sw}</a><span class="mono">BRANDIVA MEDIA — EGYPT</span></div>
+  <div class="menu-foot"><a class="link-u" href="contact.html">{L("اطلب استشارة مجانية","Request a free consultation")}</a><a class="link-u" href="{sw_href}" hreflang="{sw_lang}" lang="{sw_lang}">{sw}</a><span class="mono">BRANDIVA MEDIA — EGYPT</span>{social_icons()}</div>
 </div>
 '''
+
+def fa(i, cls="fa"):
+    return f'<svg class="{cls}" aria-hidden="true" focusable="false"><use href="assets/img/fa-brands.svg#{i}"/></svg>'
+
+def social_icons():
+    items = [("fb", "Facebook"), ("ig", "Instagram"), ("in", "LinkedIn"), ("yt", "YouTube"), ("tt", "TikTok"), ("x", "X")]
+    a = "".join(f'<a href="#" data-todo="{n} URL" rel="noopener" target="_blank">{fa(i)}<span class="sr-only">{n}</span></a>' for i, n in items)
+    return f'<div class="socials" aria-label="{L("حسابات التواصل الاجتماعي","Social media")}">{a}</div>'
 
 def footer():
     NAV = nav()
@@ -143,14 +151,12 @@ def footer():
       <div>
         <a class="brand easter" href="index.html"><picture><source srcset="assets/img/logo.webp" type="image/webp"><img class="logo logo-lg" src="assets/img/logo.png" alt="Brandiva Media" width="150" height="100" decoding="async"></picture></a>
         <p style="margin-block:1rem 1.25rem;max-width:34ch">{L("نصمّم حضورك الرقمي… ونوصّله لعملائك. تصميم مواقع، SEO، واستضافة سريعة وآمنة.","We build your digital presence and bring it to your customers. Web design, SEO and fast, secure hosting.")}</p>
-        <div class="socials" aria-label="{L("حسابات التواصل الاجتماعي","Social media")}">
-          <a href="#" data-todo="رابط فيسبوك"><span aria-hidden="true">FB</span><span class="sr-only">Facebook</span></a><a href="#" data-todo="رابط انستجرام"><span aria-hidden="true">IG</span><span class="sr-only">Instagram</span></a><a href="#" data-todo="رابط لينكدإن"><span aria-hidden="true">IN</span><span class="sr-only">LinkedIn</span></a><a href="#" data-todo="رابط يوتيوب"><span aria-hidden="true">YT</span><span class="sr-only">YouTube</span></a>
-        </div>
+        {social_icons()}
       </div>
       <nav aria-label="{L("روابط الصفحات","Pages")}"><h2>{L("الصفحات","Pages")}</h2><ul>{ln}</ul></nav>
       <nav aria-label="{L("الخدمات","Services")}"><h2>{L("الخدمات","Services")}</h2><ul>{sv}</ul></nav>
       <div><h2>{L("تواصل","Contact")}</h2><ul>
-        <li><a href="https://wa.me/201000000000" rel="noopener" data-todo="رقم واتساب">WhatsApp</a></li>
+        <li><a href="https://wa.me/201000000000" rel="noopener" data-todo="رقم واتساب">{fa("wa","fa fa-inline")} WhatsApp</a></li>
         <li><a href="mailto:info@brandivamedia.com" data-todo="البريد الرسمي">info@brandivamedia.com</a></li>
         <li><a href="contact.html">{L("نموذج طلب استشارة","Consultation request form")}</a></li>
         <li><span class="mono" style="color:var(--text-500)">{L("القاهرة","Cairo")}</span> <span class="clock" aria-label="{L("الساعة الآن بتوقيت القاهرة","Current time in Cairo")}">--:--:--</span></li></ul></div>
@@ -200,7 +206,7 @@ def quick_form(prefix, service="", compact=False):
 </div>
 <div class="field"><label for="{prefix}-svc">{L("الخدمة المطلوبة","Service needed")}</label><select id="{prefix}-svc" name="service">{sel}</select></div>
 {extra}
-<button class="btn btn-yellow btn-lg" type="submit"><span class="spin" aria-hidden="true"></span><span>{L("أرسل الطلب عبر واتساب","Send request via WhatsApp")}</span>{ARROW}</button>
+<button class="btn btn-yellow btn-lg" type="submit"><span class="spin" aria-hidden="true"></span>{fa("wa","fa")}<span>{L("أرسل الطلب عبر واتساب","Send request via WhatsApp")}</span></button>
 <p class="form-status" role="status" aria-live="polite"></p>
 <p class="cap">{L("بالضغط على إرسال سيفتح واتساب برسالة جاهزة بطلبك. لا نشارك بياناتك مع أي طرف.","Submitting opens WhatsApp with your request pre-filled. We never share your details with third parties.")}</p>
 </form>'''

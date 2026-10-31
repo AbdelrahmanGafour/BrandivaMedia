@@ -146,7 +146,7 @@ body = f'''
 <div class="container cta-grid">
 <div><p class="eyebrow mono" data-reveal>{L("ابدأ الآن", "Get started")}</p><h2 class="display" id="cta-h" data-split>{L("لا تؤجل نمو نشاطك", "Don't put off growing your business")}</h2>
 <p class="lead" style="margin-block:1.25rem" data-reveal>{L("تواصل معنا وسندرس موقعك ونفهم أهدافك، ثم نقترح خطة عمل مناسبة دون التزام مسبق.", "Get in touch and we'll review your site, understand your goals, and propose a suitable plan — no commitment.")}</p>
-<a class="wa link-u" href="https://wa.me/201000000000" rel="noopener" data-todo="رقم واتساب" data-reveal>{L("أو راسلنا مباشرة على واتساب ↗", "Or message us directly on WhatsApp ↗")}</a></div>
+<a class="wa link-u" href="https://wa.me/201000000000" rel="noopener" data-todo="رقم واتساب" data-reveal>{fa("wa","fa fa-inline")} {L("أو راسلنا مباشرة على واتساب", "Or message us directly on WhatsApp")}</a></div>
 <div class="card cta-card" data-reveal>{quick_form("q", compact=True)}</div>
 </div></section>
 '''

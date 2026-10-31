@@ -10,9 +10,10 @@ contact_body = f'''
 <section class="container contact-grid" style="padding-block-end:var(--sec)" aria-label="{L("نموذج التواصل","Contact form")}">
 <div class="card rise">{quick_form("c")}</div>
 <div class="ci rise">
-<a class="row" href="https://wa.me/201000000000" rel="noopener" data-todo="رقم واتساب"><span class="ic" aria-hidden="true">W</span><span><strong>WhatsApp</strong><br><span class="cap" dir="ltr">+20 10 0000 0000 (TODO)</span></span></a>
+<a class="row" href="https://wa.me/201000000000" rel="noopener" data-todo="رقم واتساب"><span class="ic" aria-hidden="true">{fa("wa")}</span><span><strong>WhatsApp</strong><br><span class="cap" dir="ltr">+20 10 0000 0000 (TODO)</span></span></a>
 <a class="row" href="mailto:info@brandivamedia.com" data-todo="البريد الرسمي"><span class="ic" aria-hidden="true">@</span><span><strong>{L("البريد الإلكتروني","Email")}</strong><br><span class="cap" dir="ltr">info@brandivamedia.com (TODO)</span></span></a>
 <div class="card"><h2 style="font-size:var(--fs-h3);margin-block-end:.6rem">{L("ماذا يحدث بعد الإرسال؟","What happens after you submit?")}</h2>{ticks(L(["دراسة موقعك وفهم أهدافك", "خطة عمل تناسب نشاطك", "عرض سعر واضح دون تكاليف غير متوقعة"], ["We review your site and understand your goals", "A plan that fits your business", "A clear quote with no unexpected costs"]), "p")}</div>
+<div class="card"><span class="mono y">{L("تابعنا","Follow us")}</span><div style="margin-block-start:.8rem">{social_icons()}</div></div>
 <div class="card"><span class="mono y">{L("القاهرة الآن","Cairo time now")}</span><p class="clock" style="font-size:2rem;margin-block-start:.4rem">--:--:--</p></div>
 </div></section>'''
 contact_ld = [ORG, BIZ, crumb([(L("الرئيسية","Home"), "index.html"), (L("تواصل معنا","Contact"), "contact.html")]), {"@type": "ContactPage", "name": L("تواصل مع Brandiva Media","Contact Brandiva Media"), "url": SITE + "/contact.html"}]
