@@ -8,8 +8,13 @@ python3 -m http.server 8000
 # افتح http://localhost:8000
 ```
 
+## اللغات
+- **الإنجليزية (الافتراضية):** الجذر `/` — `index.html` · `web-design.html` · `seo.html` · `web-hosting.html` · `contact.html` · `404.html`
+- **العربية (RTL):** نفس الصفحات تحت `/ar/`
+- زر تبديل اللغة في الـ Header والقائمة، مع `hreflang` وcanonical لكل لغة وsitemap بالبدائل.
+- النصوص الإنجليزية في `content/en/*.txt` (ترجمة سطرًا بسطر للملفات العربية — تُراجع قبل النشر).
+
 ## الصفحات
-`index.html` · `web-design.html` · `seo.html` · `web-hosting.html` · `contact.html` · `404.html`
 + `sitemap.xml` · `robots.txt` · `manifest.webmanifest`
 
 ## تعديل المحتوى / إعادة التوليد (أداة تأليف فقط)

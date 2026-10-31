@@ -1,6 +1,7 @@
 import { fine, reduce } from './config.js';
 export function initCursor() {
   if (!fine || reduce) return;
+  const ar = document.documentElement.lang === 'ar';
   const el = document.querySelector('.cursor');
   if (!el) return;
   document.documentElement.classList.add('has-cursor');
@@ -13,7 +14,7 @@ export function initCursor() {
     el.textContent = '';
     if (!t) return;
     const c = t.closest('[data-cursor]');
-    if (c) { const k = c.dataset.cursor; el.classList.add('is-' + k); el.textContent = k === 'view' ? 'شاهد' : k === 'drag' ? 'اسحب' : ''; if (k === 'hover') el.classList.add('is-hover'); return; }
+    if (c) { const k = c.dataset.cursor; el.classList.add('is-' + k); el.textContent = k === 'view' ? (ar ? 'شاهد' : 'View') : k === 'drag' ? (ar ? 'اسحب' : 'Drag') : ''; if (k === 'hover') el.classList.add('is-hover'); return; }
     if (t.closest('a,button,summary,input,select,textarea,[role=tab]')) el.classList.add('is-hover');
   };
   document.addEventListener('pointerover', e => set(e.target));

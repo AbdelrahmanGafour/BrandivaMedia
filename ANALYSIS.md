@@ -23,3 +23,6 @@ Preloader (B يُرسم) → Announcement pill → Header زجاجي + Menu over
 
 ## قائمة الحركات
 Preloader draw+clip · Split-text (كلمات فقط، لحماية اتصال الحروف العربية) · reveals متتابعة · clip-path للصور · parallax · pinned process · horizontal scrub للقطاعات · marquee تتأثر بسرعة السكرول · counters · magnetic · cursor بحالات (hover/view/drag) · spotlight/tilt · scroll progress · menu overlay · View Transitions (+ fallback wipe) · hover image-follow · Easter egg (نقر لوجو الفوتر).
+
+## اللغات
+الإنجليزية هي الافتراضية على الجذر، والعربية تحت `/ar/`. المحتوى الإنجليزي ترجمة للملفات الثلاثة (لا معلومات إضافية). صفحة SEO بلا Meta في الملف الأصلي، وكذلك CTA صفحة تصميم المواقع: كُتبا بالعربية والإنجليزية ويجب مراجعتهما.

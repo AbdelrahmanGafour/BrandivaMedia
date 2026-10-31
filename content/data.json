@@ -1,478 +1,958 @@
 {
- "home_faq": [
-  [
-   "ما هو SEO؟",
-   "هو اختصار لتحسين محركات البحث، ويهدف إلى زيادة ظهور الموقع في النتائج الطبيعية لمحركات البحث وتحسين جودة الزيارات."
+ "en": {
+  "home_faq": [
+   [
+    "What is SEO?",
+    "It stands for search engine optimization, and it aims to increase a site's visibility in organic search results and improve the quality of traffic."
+   ],
+   [
+    "Do you guarantee a first-place ranking?",
+    "No, because search rankings depend on many changing factors. What we offer is a strategy built on best practices to increase the chances of strong, sustainable results."
+   ],
+   [
+    "Do you provide regular reports?",
+    "Yes. We provide reports that show performance progress, keywords, traffic, and the key improvements implemented."
+   ],
+   [
+    "How much does a website cost?",
+    "The cost of a website depends on several factors, such as the number of pages, the type of website, the required functionality, and whether it includes an online store, a booking system, or multiple languages. That is why we provide custom quotes that fit the needs of each project."
+   ],
+   [
+    "How long does it take to design a website?",
+    "The timeline varies with the size of the project, but informational websites usually take one to three weeks, while online stores or larger projects may need longer depending on the requirements."
+   ],
+   [
+    "Will the website be mobile-friendly?",
+    "Yes, every website we design is fully responsive across smartphones, tablets, and computers to ensure the best user experience."
+   ],
+   [
+    "What's the difference between a domain and hosting?",
+    "A domain is your website's address on the internet, while hosting is where your website files and databases are stored."
+   ],
+   [
+    "Can I move my website to Brandiva hosting?",
+    "Yes, we move the entire website while preserving your data and minimizing downtime."
+   ]
   ],
-  [
-   "هل تضمنون الوصول إلى المركز الأول؟",
-   "لا، لأن ترتيب نتائج البحث يعتمد على عوامل عديدة ومتغيرة. ما نقدمه هو استراتيجية مبنية على أفضل الممارسات لزيادة فرص تحقيق نتائج قوية ومستدامة."
+  "industries": [
+   "Companies and corporations",
+   "Online stores",
+   "Clinics and medical centers",
+   "Law firms",
+   "Contracting companies",
+   "Real estate companies",
+   "Tourism companies",
+   "Restaurants and cafes",
+   "Schools and educational centers",
+   "Software companies",
+   "Home services companies",
+   "Shipping and logistics companies",
+   "Emerging brands"
   ],
-  [
-   "هل تقدمون تقارير دورية؟",
-   "نعم، نوفر تقارير توضح تطور الأداء، والكلمات المفتاحية، والزيارات، وأهم التحسينات المنفذة."
+  "process": [
+   [
+    "Understand the business",
+    "We start by learning about the nature of your business, the services you offer, your target audience, and the goals of the website, so we can build a site that serves your real needs."
+   ],
+   [
+    "Competitor analysis",
+    "We analyze competing websites in your field to identify their strengths and the opportunities available, then work to deliver a better experience that helps you stand out."
+   ],
+   [
+    "Planning",
+    "Before design begins, we set out a clear website structure covering the main pages, sections, and navigation paths, to ensure ease of use and improve the visitor experience."
+   ],
+   [
+    "Design",
+    "We design professional interfaces that combine beauty and simplicity, with a focus on highlighting your brand identity and encouraging visitors to take the desired action."
+   ],
+   [
+    "Development",
+    "Once the design is approved, it is turned into a fast, responsive website using the latest technologies, with performance and security in mind."
+   ],
+   [
+    "Testing",
+    "Before launch, we run comprehensive tests to verify: Loading speed, Compatibility of all pages, Forms working correctly, Compatibility with different browsers, Compatibility with mobile phones."
+   ],
+   [
+    "Launch",
+    "Once the website is confirmed ready, it is published on hosting, connected to the domain, and set up to run efficiently."
+   ],
+   [
+    "Follow-up",
+    "SEO is an ongoing process, not a one-time task. That's why we track your site's performance regularly, monitor keyword progress, user behavior, and traffic levels, and identify new opportunities for improvement."
+   ]
   ],
-  [
-   "ما هي تكلفة تصميم موقع إلكتروني؟",
-   "تعتمد تكلفة تصميم الموقع الإلكتروني على عدة عوامل، مثل عدد الصفحات، ونوع الموقع، والوظائف المطلوبة، وهل يتضمن متجرًا إلكترونيًا أو نظام حجز أو لغات متعددة. لذلك نقدم عروض أسعار مخصصة تناسب احتياجات كل مشروع."
+  "tools": [
+   [
+    "Google Search Console",
+    "To track your site's performance in search results, detect indexing errors, and analyze the keywords that bring in traffic."
+   ],
+   [
+    "Google Analytics",
+    "To understand visitor behavior, see the most visited pages and traffic sources, and measure conversions."
+   ],
+   [
+    "Google Keyword Planner",
+    "To research the right keywords, analyze search volume, and choose opportunities that fit the project's goals."
+   ],
+   [
+    "PageSpeed & Core Web Vitals",
+    "We use specialized tools to analyze site speed and uncover the elements that affect performance, with the aim of improving the user experience and Core Web Vitals."
+   ],
+   [
+    "Competitor analysis",
+    "We rely on professional tools to analyze competitors' performance, discover the keywords they target, and identify opportunities that can inform your site's strategy."
+   ]
   ],
-  [
-   "كم يستغرق تصميم موقع إلكتروني؟",
-   "تختلف مدة التنفيذ حسب حجم المشروع، ولكن غالبًا تستغرق المواقع التعريفية من أسبوع إلى ثلاثة أسابيع، بينما قد تحتاج المتاجر الإلكترونية أو المشاريع الكبيرة إلى فترة أطول وفقًا لمتطلبات العمل."
+  "seo_faq": [
+   [
+    "What is SEO?",
+    "It stands for search engine optimization, and it aims to increase a site's visibility in organic search results and improve the quality of traffic."
+   ],
+   [
+    "Is SEO suitable for new websites?",
+    "Yes. In fact, it's best to start optimizing from the build stage so that a sound structure is in place that is easy to develop later."
+   ],
+   [
+    "Can an old website be improved?",
+    "Absolutely. Older sites can be improved by resolving technical issues, developing content, and improving the user experience."
+   ],
+   [
+    "Do you guarantee a first-place ranking?",
+    "No, because search rankings depend on many changing factors. What we offer is a strategy built on best practices to increase the chances of strong, sustainable results."
+   ],
+   [
+    "Is SEO better than ads?",
+    "Each serves a different purpose. Ads are suited to getting quick results, while SEO helps build a lasting presence in search results."
+   ],
+   [
+    "Can an online store be optimized?",
+    "Yes. We offer SEO solutions tailored to online stores, covering products, categories, and user experience."
+   ],
+   [
+    "Do you provide regular reports?",
+    "Yes. We provide reports that show performance progress, keywords, traffic, and the key improvements implemented."
+   ],
+   [
+    "Can you target more than one city?",
+    "Yes. A strategy can be set up to target more than one geographic area, depending on the nature of your business."
+   ],
+   [
+    "Do I need to write articles?",
+    "In many cases, creating new content helps target additional keywords and answer potential customers' questions."
+   ],
+   [
+    "Does site speed affect SEO?",
+    "Yes. Site speed is one of the factors that affect the user experience, and it is one of the areas we work to improve."
+   ],
+   [
+    "Can a WordPress site be optimized?",
+    "Yes. We optimize WordPress sites and other content management systems."
+   ],
+   [
+    "What is the difference between On-Page SEO and Technical SEO?",
+    "On-Page SEO focuses on optimizing page content and elements, while Technical SEO deals with the technical aspects that help search engines crawl and index your site."
+   ],
+   [
+    "Are internal links important?",
+    "Yes. They help users move between pages and help search engines understand the site's structure."
+   ],
+   [
+    "Do I need Google Search Console?",
+    "Yes. It is one of the most important tools for tracking site performance and detecting indexing issues."
+   ],
+   [
+    "Can the ranking of a specific page be improved?",
+    "Yes. We can work on specific pages if they are a priority for your business, taking into account the competition and the page's current condition."
+   ],
+   [
+    "Can SEO and ads be combined?",
+    "Yes. In many cases, combining them is an effective way to achieve both short-term and long-term results."
+   ],
+   [
+    "Does the service include image optimization?",
+    "Yes. We optimize images for size, file name, and alternative text (Alt Text) to support performance and user experience."
+   ],
+   [
+    "Can I track the progress of the work?",
+    "Absolutely. We provide regular reports and explain the results and the steps carried out."
+   ],
+   [
+    "Does the plan differ from one project to another?",
+    "Yes. We prepare a strategy that fits the nature of the business, the target audience, and the competition."
+   ],
+   [
+    "How do I get started?",
+    "All you need to do is get in touch. We'll review your website, understand your goals, and then propose a suitable work plan with no prior commitment."
+   ]
   ],
-  [
-   "هل سيكون الموقع متوافقًا مع الهواتف المحمولة؟",
-   "نعم، جميع المواقع التي نقوم بتصميمها متجاوبة بالكامل مع الهواتف الذكية والأجهزة اللوحية وأجهزة الكمبيوتر لضمان أفضل تجربة للمستخدم."
+  "seo_services": [
+   [
+    "SEO Audit (site analysis)",
+    [
+     "Every successful optimization effort starts with understanding the site's current state. That's why we run a comprehensive analysis to uncover issues that may affect performance in search results.",
+     "The audit covers:",
+     "• Crawling and indexing errors.",
+     "• Pages that don't work.",
+     "• Broken links.",
+     "• Site speed.",
+     "• Content quality.",
+     "• Internal link structure.",
+     "• Mobile compatibility.",
+     "• Structured data (Schema).",
+     "At the end of the audit, you get a clear report that outlines the issues and the priorities for fixing them."
+    ]
+   ],
+   [
+    "Keyword Research",
+    [
+     "Choosing the right keywords is the foundation of any successful SEO strategy.",
+     "We don't just look for keywords with high search volume. We also focus on understanding search intent, analyzing competition, and choosing the keywords that give your site the best chance of reaching your target audience.",
+     "We work on:",
+     "• Identifying primary keywords.",
+     "• Discovering long-tail keywords.",
+     "• Analyzing search intent.",
+     "• Studying competitors.",
+     "• Assigning keywords to the right pages."
+    ]
+   ],
+   [
+    "On-Page SEO",
+    [
+     "Optimizing your site's pages helps search engines understand the content better and improves the visitor experience.",
+     "Our work includes:",
+     "• Optimizing page titles (Meta Title).",
+     "• Writing compelling Meta Descriptions.",
+     "• Structuring H1, H2, and H3 headings.",
+     "• Improving content structure.",
+     "• Optimizing images and Alt Text.",
+     "• Improving internal links.",
+     "• Optimizing permanent links (URL Slugs)."
+    ]
+   ],
+   [
+    "Technical SEO",
+    [
+     "Technical factors have a direct impact on search engines' ability to crawl and index your site.",
+     "We work on:",
+     "• Improving site speed.",
+     "• Setting up a Sitemap XML.",
+     "• Configuring Robots.txt.",
+     "• Resolving indexing errors.",
+     "• Improving Core Web Vitals.",
+     "• Improving mobile compatibility.",
+     "• Adding structured data (Schema).",
+     "• Fixing page errors."
+    ]
+   ],
+   [
+    "Content Writing",
+    [
+     "Content is the element that connects user needs with search engine requirements.",
+     "We write original content designed to:",
+     "• Answer customers' questions.",
+     "• Target the right keywords.",
+     "• Increase the time visitors spend on your site.",
+     "• Support service pages.",
+     "• Build trust in the brand."
+    ]
+   ],
+   [
+    "Internal Linking",
+    [
+     "Internal links help users navigate easily, and they help Google understand how your site's pages relate to each other.",
+     "We build a logical link structure that connects:",
+     "• Service pages.",
+     "• Articles.",
+     "• Key pages.",
+     "• Contact pages.",
+     "This strengthens the authority of the important pages on your site."
+    ]
+   ],
+   [
+    "Schema Markup",
+    [
+     "Structured data helps search engines better understand the type of content on a page.",
+     "Schema can be used to highlight:",
+     "• FAQs.",
+     "• Services.",
+     "• Articles.",
+     "• Reviews.",
+     "• Company information.",
+     "It may also contribute to richer search results (Rich Results) when the page meets Google's requirements."
+    ]
+   ],
+   [
+    "Core Web Vitals",
+    [
+     "User experience has become an important factor in evaluating websites.",
+     "We work on improving core performance metrics such as:",
+     "• Page loading speed.",
+     "• Responsiveness to interactions.",
+     "• Visual stability of the page while loading.",
+     "The aim is to improve the user experience and reduce the bounce rate."
+    ]
+   ],
+   [
+    "Local SEO",
+    [
+     "If your business serves a specific geographic area, improving your local visibility helps nearby customers find you easily.",
+     "The service includes:",
+     "• Optimizing your business profile on Google.",
+     "• Making your name, address, and phone number consistent.",
+     "• Optimizing local pages.",
+     "• Supporting visibility in local search results."
+    ]
+   ],
+   [
+    "E-commerce SEO",
+    [
+     "Online stores need a different strategy because of the large number of product and category pages.",
+     "We work on:",
+     "• Optimizing product pages.",
+     "• Optimizing category pages.",
+     "• Writing unique descriptions.",
+     "• Improving the in-store search experience.",
+     "• Resolving duplicate content.",
+     "• Improving navigation paths."
+    ]
+   ],
+   [
+    "Competitor Analysis",
+    [
+     "Competitor analysis helps uncover opportunities and refine the strategy.",
+     "We study:",
+     "• The keywords competitors target.",
+     "• Content quality.",
+     "• Site structure.",
+     "• Strengths and weaknesses.",
+     "• Opportunities to outperform in the market."
+    ]
+   ],
+   [
+    "Google Search Console",
+    [
+     "We help set up and connect your site to Google Search Console to track its performance in search results.",
+     "This helps you:",
+     "• Monitor indexing.",
+     "• Detect errors.",
+     "• Track keyword performance.",
+     "• Analyze click-through rates."
+    ]
+   ],
+   [
+    "Google Analytics",
+    [
+     "Data analysis is an essential part of any successful SEO strategy.",
+     "With Google Analytics, you can track:",
+     "• Number of visitors.",
+     "• Traffic sources.",
+     "• Most visited pages.",
+     "• Session duration.",
+     "• User behavior.",
+     "• Goal and conversion completions."
+    ]
+   ],
+   [
+    "Conversion Rate Optimization (CRO)",
+    [
+     "Increasing traffic matters, but what matters more is turning that traffic into customers.",
+     "That's why we focus on improving the site elements that influence decision-making, such as:",
+     "• Clear calls to action (CTA).",
+     "• Easy navigation.",
+     "• Page loading speed.",
+     "• Contact forms.",
+     "• User experience.",
+     "The goal is to get the most out of the traffic your site receives, not just to increase its volume."
+    ]
+   ]
   ],
-  [
-   "ما الفرق بين الدومين والاستضافة؟",
-   "الدومين هو عنوان موقعك على الإنترنت، أما الاستضافة فهي المكان الذي تُخزن فيه ملفات الموقع وقواعد البيانات."
+  "wd_faq": [
+   [
+    "How much does a website cost?",
+    "The cost of a website depends on several factors, such as the number of pages, the type of website, the required functionality, and whether it includes an online store, a booking system, or multiple languages. That is why we provide custom quotes that fit the needs of each project."
+   ],
+   [
+    "How long does it take to design a website?",
+    "The timeline varies with the size of the project, but informational websites usually take one to three weeks, while online stores or larger projects may need longer depending on the requirements."
+   ],
+   [
+    "Will the website be mobile-friendly?",
+    "Yes, every website we design is fully responsive across smartphones, tablets, and computers to ensure the best user experience."
+   ],
+   [
+    "Can I edit the website content after delivery?",
+    "Absolutely. The website is delivered with an easy-to-use control panel that lets you edit text and images and add pages or articles without any coding experience."
+   ],
+   [
+    "Does web design include search engine optimization (SEO)?",
+    "We design websites according to SEO best practices in terms of site speed, page structure, headings, and links, so the website is ready for you to start improving its search rankings. We also offer a full SEO service for those who want to increase their visibility on Google."
+   ],
+   [
+    "Can you design an online store?",
+    "Yes, we offer professional online store design with easy product management, payment method integration, shipping company integration, and simple order management."
+   ],
+   [
+    "Can the website be linked to social media?",
+    "Yes, the website can be linked to your Facebook, Instagram, LinkedIn, WhatsApp, and other accounts, making it easier to communicate with customers and strengthening your digital presence."
+   ],
+   [
+    "Does the service include buying the domain and hosting?",
+    "We can help you choose the right domain and provide fast, secure hosting, as well as fully set up the website so it is ready to go."
+   ],
+   [
+    "Can the website be expanded in the future?",
+    "Yes, websites are built in a way that allows you to add new pages, services, or functionality at any time without having to redesign the entire website."
+   ],
+   [
+    "Will the website be fast?",
+    "We optimize the website's loading speed using best practices such as compressing images, improving code, and choosing strong hosting, which helps improve the user experience and the site's search ranking."
+   ],
+   [
+    "What is the difference between a website and social media pages?",
+    "Social media pages are important for engaging with customers, but they are no substitute for a website. A website gives your business a professional identity, lets you appear in search results, gives you full control over your content, and builds greater customer trust."
+   ],
+   [
+    "Do you offer technical support after the website is delivered?",
+    "Yes, we provide technical support to help you solve problems and answer your questions, as well as periodic maintenance and update services."
+   ],
+   [
+    "Can more than one language be added to the website?",
+    "Yes, multilingual websites can be designed to suit companies that target customers in different countries and markets."
+   ],
+   [
+    "Is the website secure against hacking?",
+    "We are committed to applying security best practices, such as using SSL certificates, system updates, and protection settings, which helps reduce risks and keep the website's data safe."
+   ],
+   [
+    "Can my current website be moved to new hosting?",
+    "Yes, we offer a website migration service to new hosting that preserves your data and keeps downtime to a minimum."
+   ],
+   [
+    "What information do I need to provide before the project starts?",
+    "We usually need your company logo, an overview of your business, your services or products, your contact details, and any images or content you want to include, and we will help you complete anything that is missing."
+   ],
+   [
+    "Do you offer custom designs or rely on ready-made templates?",
+    "We rely on custom designs that suit each business's identity, with the option of using flexible solutions when needed, striking a balance between quality and budget."
+   ],
+   [
+    "Why should I choose Brandiva to design my website?",
+    "Because we focus on delivering websites that combine professional design, fast performance, ease of use, and search engine compatibility, with attention to achieving your business goals, not just building a website."
+   ]
   ],
-  [
-   "هل يمكن نقل موقعي إلى استضافة Brandiva؟",
-   "نعم، نقوم بنقل الموقع بالكامل مع الحفاظ على البيانات وتقليل فترة التوقف."
+  "wh_faq": [
+   [
+    "Do I need hosting if I already have a website?",
+    "Yes, a website can't run online without hosting that provides the space and operating resources it needs."
+   ],
+   [
+    "What's the difference between a domain and hosting?",
+    "A domain is your website's address on the internet, while hosting is where your website files and databases are stored."
+   ],
+   [
+    "What is the best type of hosting for a WordPress website?",
+    "It depends on your website's size and number of visitors, but WordPress hosting or VPS is usually a suitable choice for most projects."
+   ],
+   [
+    "Can I move my website to Brandiva hosting?",
+    "Yes, we move the entire website while preserving your data and minimizing downtime."
+   ],
+   [
+    "Do you provide professional email?",
+    "Yes, we can provide email linked to your company's domain name."
+   ],
+   [
+    "Do you offer website backups?",
+    "Yes, we provide backup solutions that help restore your website when needed."
+   ],
+   [
+    "Is an SSL certificate necessary?",
+    "Yes, it protects user data and increases visitor trust, and it is also one of the factors that affect search engine optimization."
+   ],
+   [
+    "Can I upgrade my hosting plan later?",
+    "Absolutely, the plan can be upgraded easily as your website grows and your visitor numbers increase."
+   ]
   ]
- ],
- "industries": [
-  "الشركات والمؤسسات",
-  "المتاجر الإلكترونية",
-  "العيادات والمراكز الطبية",
-  "مكاتب المحاماة",
-  "شركات المقاولات",
-  "شركات العقارات",
-  "شركات السياحة",
-  "المطاعم والكافيهات",
-  "المدارس والمراكز التعليمية",
-  "شركات البرمجيات",
-  "شركات الخدمات المنزلية",
-  "شركات الشحن والخدمات اللوجستية",
-  "العلامات التجارية الناشئة"
- ],
- "process": [
-  [
-   "فهم النشاط",
-   "في البداية نقوم بالتعرف على طبيعة نشاطك، والخدمات التي تقدمها، والجمهور المستهدف، وأهداف الموقع، حتى نتمكن من بناء موقع يخدم احتياجاتك الحقيقية."
+ },
+ "ar": {
+  "home_faq": [
+   [
+    "ما هو SEO؟",
+    "هو اختصار لتحسين محركات البحث، ويهدف إلى زيادة ظهور الموقع في النتائج الطبيعية لمحركات البحث وتحسين جودة الزيارات."
+   ],
+   [
+    "هل تضمنون الوصول إلى المركز الأول؟",
+    "لا، لأن ترتيب نتائج البحث يعتمد على عوامل عديدة ومتغيرة. ما نقدمه هو استراتيجية مبنية على أفضل الممارسات لزيادة فرص تحقيق نتائج قوية ومستدامة."
+   ],
+   [
+    "هل تقدمون تقارير دورية؟",
+    "نعم، نوفر تقارير توضح تطور الأداء، والكلمات المفتاحية، والزيارات، وأهم التحسينات المنفذة."
+   ],
+   [
+    "ما هي تكلفة تصميم موقع إلكتروني؟",
+    "تعتمد تكلفة تصميم الموقع الإلكتروني على عدة عوامل، مثل عدد الصفحات، ونوع الموقع، والوظائف المطلوبة، وهل يتضمن متجرًا إلكترونيًا أو نظام حجز أو لغات متعددة. لذلك نقدم عروض أسعار مخصصة تناسب احتياجات كل مشروع."
+   ],
+   [
+    "كم يستغرق تصميم موقع إلكتروني؟",
+    "تختلف مدة التنفيذ حسب حجم المشروع، ولكن غالبًا تستغرق المواقع التعريفية من أسبوع إلى ثلاثة أسابيع، بينما قد تحتاج المتاجر الإلكترونية أو المشاريع الكبيرة إلى فترة أطول وفقًا لمتطلبات العمل."
+   ],
+   [
+    "هل سيكون الموقع متوافقًا مع الهواتف المحمولة؟",
+    "نعم، جميع المواقع التي نقوم بتصميمها متجاوبة بالكامل مع الهواتف الذكية والأجهزة اللوحية وأجهزة الكمبيوتر لضمان أفضل تجربة للمستخدم."
+   ],
+   [
+    "ما الفرق بين الدومين والاستضافة؟",
+    "الدومين هو عنوان موقعك على الإنترنت، أما الاستضافة فهي المكان الذي تُخزن فيه ملفات الموقع وقواعد البيانات."
+   ],
+   [
+    "هل يمكن نقل موقعي إلى استضافة Brandiva؟",
+    "نعم، نقوم بنقل الموقع بالكامل مع الحفاظ على البيانات وتقليل فترة التوقف."
+   ]
   ],
-  [
-   "تحليل المنافسين",
-   "نحلل المواقع المنافسة في نفس المجال لمعرفة نقاط القوة والفرص المتاحة، ثم نعمل على تقديم تجربة أفضل تساعدك على التميز."
+  "industries": [
+   "الشركات والمؤسسات",
+   "المتاجر الإلكترونية",
+   "العيادات والمراكز الطبية",
+   "مكاتب المحاماة",
+   "شركات المقاولات",
+   "شركات العقارات",
+   "شركات السياحة",
+   "المطاعم والكافيهات",
+   "المدارس والمراكز التعليمية",
+   "شركات البرمجيات",
+   "شركات الخدمات المنزلية",
+   "شركات الشحن والخدمات اللوجستية",
+   "العلامات التجارية الناشئة"
   ],
-  [
-   "تخطيط",
-   "قبل بدء التصميم نقوم بوضع هيكل واضح للموقع يشمل الصفحات الرئيسية، الأقسام، ومسارات التنقل، لضمان سهولة الاستخدام وتحسين تجربة الزائر."
+  "process": [
+   [
+    "فهم النشاط",
+    "في البداية نقوم بالتعرف على طبيعة نشاطك، والخدمات التي تقدمها، والجمهور المستهدف، وأهداف الموقع، حتى نتمكن من بناء موقع يخدم احتياجاتك الحقيقية."
+   ],
+   [
+    "تحليل المنافسين",
+    "نحلل المواقع المنافسة في نفس المجال لمعرفة نقاط القوة والفرص المتاحة، ثم نعمل على تقديم تجربة أفضل تساعدك على التميز."
+   ],
+   [
+    "تخطيط",
+    "قبل بدء التصميم نقوم بوضع هيكل واضح للموقع يشمل الصفحات الرئيسية، الأقسام، ومسارات التنقل، لضمان سهولة الاستخدام وتحسين تجربة الزائر."
+   ],
+   [
+    "تصميم",
+    "يتم تصميم واجهات احترافية تجمع بين الجمال والبساطة، مع التركيز على إبراز هوية علامتك التجارية وتشجيع الزائر على اتخاذ الإجراء المطلوب."
+   ],
+   [
+    "تطوير",
+    "بعد اعتماد التصميم، يتم تحويله إلى موقع إلكتروني سريع ومتجاوب باستخدام أحدث التقنيات، مع مراعاة الأداء والأمان."
+   ],
+   [
+    "اختبار",
+    "قبل إطلاق الموقع نقوم بإجراء اختبارات شاملة للتأكد من: سرعة التحميل، توافق جميع الصفحات، عمل النماذج بشكل صحيح، التوافق مع مختلف المتصفحات، التوافق مع الهواتف."
+   ],
+   [
+    "إطلاق",
+    "بعد التأكد من جاهزية الموقع يتم نشره على الاستضافة وربطه بالدومين وتجهيزه للعمل بكفاءة."
+   ],
+   [
+    "متابعة",
+    "SEO عملية مستمرة وليست مهمة تُنفذ مرة واحدة. لذلك نتابع أداء الموقع بشكل دوري، ونراقب تطور الكلمات المفتاحية، وسلوك المستخدمين، ومعدلات الزيارات، ونحدد فرص التحسين الجديدة."
+   ]
   ],
-  [
-   "تصميم",
-   "يتم تصميم واجهات احترافية تجمع بين الجمال والبساطة، مع التركيز على إبراز هوية علامتك التجارية وتشجيع الزائر على اتخاذ الإجراء المطلوب."
+  "tools": [
+   [
+    "Google Search Console",
+    "لمتابعة أداء الموقع في نتائج البحث، واكتشاف أخطاء الفهرسة، وتحليل الكلمات المفتاحية التي تجلب الزيارات."
+   ],
+   [
+    "Google Analytics",
+    "لفهم سلوك الزوار، ومعرفة الصفحات الأكثر زيارة، ومصادر الزيارات، وقياس التحويلات."
+   ],
+   [
+    "Google Keyword Planner",
+    "للبحث عن الكلمات المفتاحية المناسبة، وتحليل حجم البحث، واختيار الفرص التي تتناسب مع أهداف المشروع."
+   ],
+   [
+    "PageSpeed & Core Web Vitals",
+    "نستخدم أدوات متخصصة لتحليل سرعة الموقع واكتشاف العناصر التي تؤثر على الأداء، بهدف تحسين تجربة المستخدم ومؤشرات Core Web Vitals."
+   ],
+   [
+    "تحليل المنافسين",
+    "نعتمد على أدوات احترافية لتحليل أداء المنافسين، واكتشاف الكلمات المفتاحية التي يستهدفونها، والفرص التي يمكن الاستفادة منها لتطوير استراتيجية الموقع."
+   ]
   ],
-  [
-   "تطوير",
-   "بعد اعتماد التصميم، يتم تحويله إلى موقع إلكتروني سريع ومتجاوب باستخدام أحدث التقنيات، مع مراعاة الأداء والأمان."
+  "seo_faq": [
+   [
+    "ما هو SEO؟",
+    "هو اختصار لتحسين محركات البحث، ويهدف إلى زيادة ظهور الموقع في النتائج الطبيعية لمحركات البحث وتحسين جودة الزيارات."
+   ],
+   [
+    "هل SEO مناسب للمواقع الجديدة؟",
+    "نعم، بل يفضل البدء في تحسين الموقع منذ مرحلة الإنشاء حتى يتم بناء هيكل سليم يسهل تطويره مستقبلًا."
+   ],
+   [
+    "هل يمكن تحسين موقع قديم؟",
+    "بالتأكيد، يمكن تحسين المواقع القديمة من خلال معالجة المشكلات التقنية، وتطوير المحتوى، وتحسين تجربة المستخدم."
+   ],
+   [
+    "هل تضمنون الوصول إلى المركز الأول؟",
+    "لا، لأن ترتيب نتائج البحث يعتمد على عوامل عديدة ومتغيرة. ما نقدمه هو استراتيجية مبنية على أفضل الممارسات لزيادة فرص تحقيق نتائج قوية ومستدامة."
+   ],
+   [
+    "هل SEO أفضل من الإعلانات؟",
+    "كل منهما يخدم هدفًا مختلفًا. الإعلانات مناسبة للحصول على نتائج سريعة، بينما يساعد SEO على بناء حضور مستمر في نتائج البحث."
+   ],
+   [
+    "هل يمكن تحسين متجر إلكتروني؟",
+    "نعم، نقدم حلول SEO مخصصة للمتاجر الإلكترونية تشمل المنتجات، والتصنيفات، وتجربة المستخدم."
+   ],
+   [
+    "هل تقدمون تقارير دورية؟",
+    "نعم، نوفر تقارير توضح تطور الأداء، والكلمات المفتاحية، والزيارات، وأهم التحسينات المنفذة."
+   ],
+   [
+    "هل يمكن استهداف أكثر من مدينة؟",
+    "نعم، يمكن إعداد استراتيجية تستهدف أكثر من منطقة جغرافية وفقًا لطبيعة نشاطك."
+   ],
+   [
+    "هل أحتاج إلى كتابة مقالات؟",
+    "في كثير من الحالات، يساعد إنشاء محتوى جديد على استهداف كلمات مفتاحية إضافية والإجابة عن أسئلة العملاء المحتملين."
+   ],
+   [
+    "هل تؤثر سرعة الموقع على SEO؟",
+    "نعم، سرعة الموقع من العوامل التي تؤثر على تجربة المستخدم، وهي أحد الجوانب التي نهتم بتحسينها."
+   ],
+   [
+    "هل يمكن تحسين موقع WordPress؟",
+    "نعم، نعمل على تحسين مواقع WordPress وغيرها من أنظمة إدارة المحتوى."
+   ],
+   [
+    "ما الفرق بين On-Page SEO وTechnical SEO؟",
+    "يركز On-Page SEO على تحسين محتوى الصفحات وعناصرها، بينما يهتم Technical SEO بالجوانب التقنية التي تساعد محركات البحث على الزحف والفهرسة."
+   ],
+   [
+    "هل الروابط الداخلية مهمة؟",
+    "نعم، فهي تساعد المستخدم على التنقل بين الصفحات، وتساعد محركات البحث على فهم هيكل الموقع."
+   ],
+   [
+    "هل أحتاج إلى Google Search Console؟",
+    "نعم، فهو من أهم الأدوات لمتابعة أداء الموقع واكتشاف مشكلات الفهرسة."
+   ],
+   [
+    "هل يمكن تحسين ترتيب صفحة معينة؟",
+    "نعم، يمكن العمل على صفحات محددة إذا كانت تمثل أولوية للنشاط التجاري، مع مراعاة المنافسة وحالة الصفحة."
+   ],
+   [
+    "هل يمكن الجمع بين SEO والإعلانات؟",
+    "نعم، في كثير من الحالات يكون الدمج بينهما وسيلة فعالة لتحقيق نتائج قصيرة وطويلة المدى."
+   ],
+   [
+    "هل تشمل الخدمة تحسين الصور؟",
+    "نعم، نهتم بتحسين الصور من حيث الحجم، واسم الملف، والنص البديل (Alt Text) لدعم الأداء وتجربة المستخدم."
+   ],
+   [
+    "هل يمكن متابعة تقدم العمل؟",
+    "بالتأكيد، نوفر تقارير دورية وشرحًا للنتائج والخطوات المنفذة."
+   ],
+   [
+    "هل تختلف الخطة من مشروع لآخر؟",
+    "نعم، يتم إعداد استراتيجية تناسب طبيعة النشاط، والجمهور المستهدف، والمنافسة."
+   ],
+   [
+    "كيف أبدأ؟",
+    "كل ما عليك هو التواصل معنا، وسنقوم بدراسة موقعك، وفهم أهدافك، ثم نقترح خطة عمل مناسبة دون التزام مسبق."
+   ]
   ],
-  [
-   "اختبار",
-   "قبل إطلاق الموقع نقوم بإجراء اختبارات شاملة للتأكد من: سرعة التحميل، توافق جميع الصفحات، عمل النماذج بشكل صحيح، التوافق مع مختلف المتصفحات، التوافق مع الهواتف."
+  "seo_services": [
+   [
+    "SEO Audit (تحليل الموقع)",
+    [
+     "أي عملية تحسين ناجحة تبدأ بفهم الوضع الحالي للموقع. لذلك نقوم بإجراء تحليل شامل لاكتشاف المشكلات التي قد تؤثر على الأداء في نتائج البحث.",
+     "يشمل التحليل:",
+     "أخطاء الزحف والفهرسة.",
+     "الصفحات التي لا تعمل.",
+     "الروابط المكسورة.",
+     "سرعة الموقع.",
+     "جودة المحتوى.",
+     "بنية الروابط الداخلية.",
+     "توافق الموقع مع الهواتف.",
+     "البيانات المنظمة (Schema).",
+     "وفي نهاية التحليل تحصل على تقرير واضح يوضح المشكلات وأولويات معالجتها."
+    ]
+   ],
+   [
+    "Keyword Research (البحث عن الكلمات المفتاحية)",
+    [
+     "اختيار الكلمات المفتاحية المناسبة هو الأساس الذي تُبنى عليه أي استراتيجية SEO ناجحة.",
+     "لا نبحث فقط عن الكلمات ذات حجم البحث المرتفع، بل نهتم أيضًا بفهم نية الباحث، وتحليل المنافسة، واختيار الكلمات التي تمنح موقعك أفضل فرصة للوصول إلى الجمهور المستهدف.",
+     "نعمل على:",
+     "تحديد الكلمات الرئيسية.",
+     "اكتشاف الكلمات طويلة الذيل (Long-tail Keywords).",
+     "تحليل نية البحث.",
+     "دراسة المنافسين.",
+     "توزيع الكلمات على الصفحات المناسبة."
+    ]
+   ],
+   [
+    "On-Page SEO",
+    [
+     "تحسين صفحات الموقع يساعد محركات البحث على فهم المحتوى بشكل أفضل، كما يحسن تجربة الزائر.",
+     "تشمل أعمالنا:",
+     "تحسين عناوين الصفحات (Meta Title).",
+     "كتابة Meta Description جذابة.",
+     "تنظيم H1 وH2 وH3.",
+     "تحسين بنية المحتوى.",
+     "تحسين الصور وAlt Text.",
+     "تحسين الروابط الداخلية.",
+     "تحسين الروابط الدائمة (URL Slugs)."
+    ]
+   ],
+   [
+    "Technical SEO",
+    [
+     "الجوانب التقنية لها تأثير مباشر على قدرة محركات البحث على الزحف إلى الموقع وفهرسته.",
+     "نعمل على:",
+     "تحسين سرعة الموقع.",
+     "إعداد Sitemap XML.",
+     "ضبط Robots.txt.",
+     "معالجة أخطاء الفهرسة.",
+     "تحسين Core Web Vitals.",
+     "تحسين التوافق مع الهواتف.",
+     "إضافة البيانات المنظمة (Schema).",
+     "إصلاح أخطاء الصفحات."
+    ]
+   ],
+   [
+    "Content Writing",
+    [
+     "المحتوى هو العنصر الذي يربط بين احتياجات المستخدم ومتطلبات محركات البحث.",
+     "نكتب محتوى أصليًا يهدف إلى:",
+     "الإجابة عن أسئلة العملاء.",
+     "استهداف الكلمات المفتاحية المناسبة.",
+     "زيادة مدة بقاء الزائر داخل الموقع.",
+     "دعم صفحات الخدمات.",
+     "بناء الثقة في العلامة التجارية."
+    ]
+   ],
+   [
+    "Internal Linking",
+    [
+     "الروابط الداخلية تساعد المستخدم على التنقل بسهولة، كما تساعد Google على فهم العلاقة بين صفحات الموقع.",
+     "نعمل على إنشاء هيكل روابط منطقي يربط بين:",
+     "صفحات الخدمات.",
+     "المقالات.",
+     "الصفحات المهمة.",
+     "صفحات التواصل.",
+     "مما يعزز قوة الصفحات المهمة داخل الموقع."
+    ]
+   ],
+   [
+    "Schema Markup",
+    [
+     "البيانات المنظمة تساعد محركات البحث على فهم نوع المحتوى الموجود داخل الصفحة بشكل أفضل.",
+     "يمكن استخدام Schema لإبراز:",
+     "الأسئلة الشائعة.",
+     "الخدمات.",
+     "المقالات.",
+     "التقييمات.",
+     "معلومات الشركة.",
+     "وقد تساهم في ظهور نتائج بحث أكثر ثراءً (Rich Results) عندما تستوفي الصفحة متطلبات Google."
+    ]
+   ],
+   [
+    "Core Web Vitals",
+    [
+     "تجربة المستخدم أصبحت من العوامل المهمة في تقييم المواقع.",
+     "نعمل على تحسين مؤشرات الأداء الأساسية مثل:",
+     "سرعة تحميل الصفحة.",
+     "سرعة التفاعل مع العناصر.",
+     "ثبات تصميم الصفحة أثناء التحميل.",
+     "وذلك بهدف تحسين تجربة المستخدم وتقليل معدل مغادرة الزوار."
+    ]
+   ],
+   [
+    "Local SEO",
+    [
+     "إذا كان نشاطك التجاري يخدم منطقة جغرافية محددة، فإن تحسين الظهور المحلي يساعد العملاء القريبين منك على العثور على نشاطك بسهولة.",
+     "تشمل الخدمة:",
+     "تحسين صفحة النشاط التجاري على Google.",
+     "توحيد بيانات الاسم والعنوان ورقم الهاتف.",
+     "تحسين الصفحات المحلية.",
+     "دعم الظهور في نتائج البحث المحلية."
+    ]
+   ],
+   [
+    "E-commerce SEO",
+    [
+     "المتاجر الإلكترونية تحتاج إلى استراتيجية مختلفة بسبب كثرة صفحات المنتجات والتصنيفات.",
+     "نعمل على:",
+     "تحسين صفحات المنتجات.",
+     "تحسين صفحات التصنيفات.",
+     "كتابة أوصاف فريدة.",
+     "تحسين تجربة البحث داخل المتجر.",
+     "معالجة المحتوى المتكرر.",
+     "تحسين مسارات التنقل."
+    ]
+   ],
+   [
+    "Competitor Analysis",
+    [
+     "تحليل المنافسين يساعد على اكتشاف الفرص وتحسين الاستراتيجية.",
+     "نقوم بدراسة:",
+     "الكلمات المفتاحية التي يستهدفها المنافسون.",
+     "جودة المحتوى.",
+     "بنية الموقع.",
+     "نقاط القوة والضعف.",
+     "فرص التفوق في السوق."
+    ]
+   ],
+   [
+    "Google Search Console",
+    [
+     "نساعد في إعداد وربط الموقع مع Google Search Console لمتابعة أداء الموقع في نتائج البحث.",
+     "يساعد ذلك على:",
+     "متابعة الفهرسة.",
+     "اكتشاف الأخطاء.",
+     "مراقبة أداء الكلمات المفتاحية.",
+     "تحليل معدلات النقر."
+    ]
+   ],
+   [
+    "Google Analytics",
+    [
+     "تحليل البيانات جزء أساسي من نجاح أي استراتيجية SEO.",
+     "من خلال Google Analytics يمكن متابعة:",
+     "عدد الزوار.",
+     "مصادر الزيارات.",
+     "الصفحات الأكثر زيارة.",
+     "مدة الجلسات.",
+     "سلوك المستخدم.",
+     "تحقيق الأهداف والتحويلات."
+    ]
+   ],
+   [
+    "Conversion Rate Optimization (CRO)",
+    [
+     "زيادة الزيارات مهمة، لكن الأهم هو تحويل هذه الزيارات إلى عملاء.",
+     "لذلك نهتم بتحسين عناصر الموقع التي تؤثر على اتخاذ القرار، مثل:",
+     "وضوح الدعوات لاتخاذ إجراء (CTA).",
+     "سهولة التنقل.",
+     "سرعة تحميل الصفحات.",
+     "نماذج التواصل.",
+     "تجربة المستخدم.",
+     "الهدف هو تحقيق أفضل استفادة من الزيارات التي يحصل عليها الموقع، وليس فقط زيادة أعدادها."
+    ]
+   ]
   ],
-  [
-   "إطلاق",
-   "بعد التأكد من جاهزية الموقع يتم نشره على الاستضافة وربطه بالدومين وتجهيزه للعمل بكفاءة."
+  "wd_faq": [
+   [
+    "ما هي تكلفة تصميم موقع إلكتروني؟",
+    "تعتمد تكلفة تصميم الموقع الإلكتروني على عدة عوامل، مثل عدد الصفحات، ونوع الموقع، والوظائف المطلوبة، وهل يتضمن متجرًا إلكترونيًا أو نظام حجز أو لغات متعددة. لذلك نقدم عروض أسعار مخصصة تناسب احتياجات كل مشروع."
+   ],
+   [
+    "كم يستغرق تصميم موقع إلكتروني؟",
+    "تختلف مدة التنفيذ حسب حجم المشروع، ولكن غالبًا تستغرق المواقع التعريفية من أسبوع إلى ثلاثة أسابيع، بينما قد تحتاج المتاجر الإلكترونية أو المشاريع الكبيرة إلى فترة أطول وفقًا لمتطلبات العمل."
+   ],
+   [
+    "هل سيكون الموقع متوافقًا مع الهواتف المحمولة؟",
+    "نعم، جميع المواقع التي نقوم بتصميمها متجاوبة بالكامل مع الهواتف الذكية والأجهزة اللوحية وأجهزة الكمبيوتر لضمان أفضل تجربة للمستخدم."
+   ],
+   [
+    "هل يمكنني تعديل محتوى الموقع بعد التسليم؟",
+    "بالتأكيد، يتم تسليم الموقع مع لوحة تحكم سهلة الاستخدام تتيح لك تعديل النصوص والصور وإضافة الصفحات أو المقالات دون الحاجة إلى خبرة برمجية."
+   ],
+   [
+    "هل تصميم الموقع يشمل تحسين محركات البحث (SEO)؟",
+    "نقوم بتصميم المواقع وفق أفضل ممارسات SEO من حيث سرعة الموقع، وهيكلة الصفحات، والعناوين، والروابط، ليكون الموقع جاهزًا لبدء تحسين ترتيبه في نتائج البحث. كما نقدم خدمة SEO متكاملة للراغبين في زيادة الظهور على Google."
+   ],
+   [
+    "هل يمكن تصميم متجر إلكتروني؟",
+    "نعم، نقدم خدمات تصميم متاجر إلكترونية احترافية مع إمكانية إدارة المنتجات، وربط وسائل الدفع، وشركات الشحن، وإدارة الطلبات بسهولة."
+   ],
+   [
+    "هل يمكن ربط الموقع بوسائل التواصل الاجتماعي؟",
+    "نعم، يمكن ربط الموقع بحساباتك على Facebook وInstagram وLinkedIn وWhatsApp وغيرها، لتسهيل التواصل مع العملاء وتعزيز حضورك الرقمي."
+   ],
+   [
+    "هل تشمل الخدمة شراء الدومين والاستضافة؟",
+    "يمكننا مساعدتك في اختيار الدومين المناسب وتوفير استضافة سريعة وآمنة، بالإضافة إلى إعداد الموقع بالكامل حتى يصبح جاهزًا للعمل."
+   ],
+   [
+    "هل يمكن تطوير الموقع في المستقبل؟",
+    "نعم، يتم بناء المواقع بطريقة تسمح بإضافة صفحات أو خدمات أو وظائف جديدة في أي وقت دون الحاجة إلى إعادة تصميم الموقع بالكامل."
+   ],
+   [
+    "هل الموقع سيكون سريعًا؟",
+    "نعمل على تحسين سرعة تحميل الموقع باستخدام أفضل الممارسات، مثل ضغط الصور وتحسين الأكواد واختيار استضافة قوية، مما يساهم في تحسين تجربة المستخدم وترتيب الموقع في نتائج البحث."
+   ],
+   [
+    "ما الفرق بين الموقع الإلكتروني وصفحات التواصل الاجتماعي؟",
+    "صفحات التواصل الاجتماعي مهمة للتفاعل مع العملاء، لكنها لا تغني عن الموقع الإلكتروني. الموقع يمنح نشاطك التجاري هوية احترافية، ويتيح لك الظهور في نتائج البحث، والتحكم الكامل في المحتوى، وبناء ثقة أكبر لدى العملاء."
+   ],
+   [
+    "هل تقدمون دعمًا فنيًا بعد تسليم الموقع؟",
+    "نعم، نوفر دعمًا فنيًا لمساعدتك في حل المشكلات والإجابة عن استفساراتك، بالإضافة إلى إمكانية تقديم خدمات الصيانة والتحديث بشكل دوري."
+   ],
+   [
+    "هل يمكن إضافة أكثر من لغة للموقع؟",
+    "نعم، يمكن تصميم مواقع متعددة اللغات لتناسب الشركات التي تستهدف عملاء من دول وأسواق مختلفة."
+   ],
+   [
+    "هل الموقع آمن ضد الاختراق؟",
+    "نلتزم بتطبيق أفضل ممارسات الأمان، مثل استخدام شهادات SSL، وتحديثات النظام، وإعدادات الحماية، مما يساعد على تقليل المخاطر والحفاظ على بيانات الموقع."
+   ],
+   [
+    "هل يمكن نقل موقعي الحالي إلى استضافة جديدة؟",
+    "نعم، نوفر خدمة نقل المواقع إلى استضافة جديدة مع الحفاظ على البيانات وتقليل فترة التوقف قدر الإمكان."
+   ],
+   [
+    "ما هي المعلومات التي أحتاج إلى توفيرها قبل بدء المشروع؟",
+    "عادةً نحتاج إلى شعار الشركة، ونبذة عن النشاط، والخدمات أو المنتجات، وبيانات التواصل، وأي صور أو محتوى ترغب في إضافته، وسنساعدك في استكمال أي عناصر ناقصة."
+   ],
+   [
+    "هل تقدمون تصميمات مخصصة أم تعتمدون على قوالب جاهزة؟",
+    "نعتمد على تصميمات مخصصة تناسب هوية كل نشاط تجاري، مع إمكانية استخدام حلول مرنة عند الحاجة، بما يحقق التوازن بين الجودة والميزانية."
+   ],
+   [
+    "لماذا أختار Brandiva لتصميم موقعي؟",
+    "لأننا نركز على تقديم مواقع تجمع بين التصميم الاحترافي، وسرعة الأداء، وسهولة الاستخدام، والتوافق مع محركات البحث، مع الاهتمام بتحقيق أهداف نشاطك التجاري وليس مجرد إنشاء موقع إلكتروني."
+   ]
   ],
-  [
-   "متابعة",
-   "SEO عملية مستمرة وليست مهمة تُنفذ مرة واحدة. لذلك نتابع أداء الموقع بشكل دوري، ونراقب تطور الكلمات المفتاحية، وسلوك المستخدمين، ومعدلات الزيارات، ونحدد فرص التحسين الجديدة."
+  "wh_faq": [
+   [
+    "هل أحتاج إلى استضافة إذا كان لدي موقع؟",
+    "نعم، فالموقع لا يمكن أن يعمل على الإنترنت دون استضافة توفر له مساحة وموارد التشغيل."
+   ],
+   [
+    "ما الفرق بين الدومين والاستضافة؟",
+    "الدومين هو عنوان موقعك على الإنترنت، أما الاستضافة فهي المكان الذي تُخزن فيه ملفات الموقع وقواعد البيانات."
+   ],
+   [
+    "ما أفضل نوع استضافة لموقع WordPress؟",
+    "تعتمد الإجابة على حجم الموقع وعدد الزوار، لكن غالبًا تكون استضافة WordPress أو VPS خيارًا مناسبًا لمعظم المشاريع."
+   ],
+   [
+    "هل يمكن نقل موقعي إلى استضافة Brandiva؟",
+    "نعم، نقوم بنقل الموقع بالكامل مع الحفاظ على البيانات وتقليل فترة التوقف."
+   ],
+   [
+    "هل توفرون بريدًا إلكترونيًا احترافيًا؟",
+    "نعم، يمكن توفير بريد إلكتروني مرتبط باسم نطاق شركتك."
+   ],
+   [
+    "هل تقدمون نسخًا احتياطيًا للموقع؟",
+    "نعم، نوفر حلول نسخ احتياطي تساعد على استعادة الموقع عند الحاجة."
+   ],
+   [
+    "هل شهادة SSL ضرورية؟",
+    "نعم، فهي تحمي بيانات المستخدمين وتزيد من ثقة الزوار، كما تعد من العوامل التي تؤثر على تحسين محركات البحث."
+   ],
+   [
+    "هل يمكن ترقية خطة الاستضافة لاحقًا؟",
+    "بالتأكيد، يمكن ترقية الخطة بسهولة مع نمو موقعك وزيادة عدد الزوار."
+   ]
   ]
- ],
- "tools": [
-  [
-   "Google Search Console",
-   "لمتابعة أداء الموقع في نتائج البحث، واكتشاف أخطاء الفهرسة، وتحليل الكلمات المفتاحية التي تجلب الزيارات."
-  ],
-  [
-   "Google Analytics",
-   "لفهم سلوك الزوار، ومعرفة الصفحات الأكثر زيارة، ومصادر الزيارات، وقياس التحويلات."
-  ],
-  [
-   "Google Keyword Planner",
-   "للبحث عن الكلمات المفتاحية المناسبة، وتحليل حجم البحث، واختيار الفرص التي تتناسب مع أهداف المشروع."
-  ],
-  [
-   "PageSpeed & Core Web Vitals",
-   "نستخدم أدوات متخصصة لتحليل سرعة الموقع واكتشاف العناصر التي تؤثر على الأداء، بهدف تحسين تجربة المستخدم ومؤشرات Core Web Vitals."
-  ],
-  [
-   "تحليل المنافسين",
-   "نعتمد على أدوات احترافية لتحليل أداء المنافسين، واكتشاف الكلمات المفتاحية التي يستهدفونها، والفرص التي يمكن الاستفادة منها لتطوير استراتيجية الموقع."
-  ]
- ],
- "seo_faq": [
-  [
-   "ما هو SEO؟",
-   "هو اختصار لتحسين محركات البحث، ويهدف إلى زيادة ظهور الموقع في النتائج الطبيعية لمحركات البحث وتحسين جودة الزيارات."
-  ],
-  [
-   "هل SEO مناسب للمواقع الجديدة؟",
-   "نعم، بل يفضل البدء في تحسين الموقع منذ مرحلة الإنشاء حتى يتم بناء هيكل سليم يسهل تطويره مستقبلًا."
-  ],
-  [
-   "هل يمكن تحسين موقع قديم؟",
-   "بالتأكيد، يمكن تحسين المواقع القديمة من خلال معالجة المشكلات التقنية، وتطوير المحتوى، وتحسين تجربة المستخدم."
-  ],
-  [
-   "هل تضمنون الوصول إلى المركز الأول؟",
-   "لا، لأن ترتيب نتائج البحث يعتمد على عوامل عديدة ومتغيرة. ما نقدمه هو استراتيجية مبنية على أفضل الممارسات لزيادة فرص تحقيق نتائج قوية ومستدامة."
-  ],
-  [
-   "هل SEO أفضل من الإعلانات؟",
-   "كل منهما يخدم هدفًا مختلفًا. الإعلانات مناسبة للحصول على نتائج سريعة، بينما يساعد SEO على بناء حضور مستمر في نتائج البحث."
-  ],
-  [
-   "هل يمكن تحسين متجر إلكتروني؟",
-   "نعم، نقدم حلول SEO مخصصة للمتاجر الإلكترونية تشمل المنتجات، والتصنيفات، وتجربة المستخدم."
-  ],
-  [
-   "هل تقدمون تقارير دورية؟",
-   "نعم، نوفر تقارير توضح تطور الأداء، والكلمات المفتاحية، والزيارات، وأهم التحسينات المنفذة."
-  ],
-  [
-   "هل يمكن استهداف أكثر من مدينة؟",
-   "نعم، يمكن إعداد استراتيجية تستهدف أكثر من منطقة جغرافية وفقًا لطبيعة نشاطك."
-  ],
-  [
-   "هل أحتاج إلى كتابة مقالات؟",
-   "في كثير من الحالات، يساعد إنشاء محتوى جديد على استهداف كلمات مفتاحية إضافية والإجابة عن أسئلة العملاء المحتملين."
-  ],
-  [
-   "هل تؤثر سرعة الموقع على SEO؟",
-   "نعم، سرعة الموقع من العوامل التي تؤثر على تجربة المستخدم، وهي أحد الجوانب التي نهتم بتحسينها."
-  ],
-  [
-   "هل يمكن تحسين موقع WordPress؟",
-   "نعم، نعمل على تحسين مواقع WordPress وغيرها من أنظمة إدارة المحتوى."
-  ],
-  [
-   "ما الفرق بين On-Page SEO وTechnical SEO؟",
-   "يركز On-Page SEO على تحسين محتوى الصفحات وعناصرها، بينما يهتم Technical SEO بالجوانب التقنية التي تساعد محركات البحث على الزحف والفهرسة."
-  ],
-  [
-   "هل الروابط الداخلية مهمة؟",
-   "نعم، فهي تساعد المستخدم على التنقل بين الصفحات، وتساعد محركات البحث على فهم هيكل الموقع."
-  ],
-  [
-   "هل أحتاج إلى Google Search Console؟",
-   "نعم، فهو من أهم الأدوات لمتابعة أداء الموقع واكتشاف مشكلات الفهرسة."
-  ],
-  [
-   "هل يمكن تحسين ترتيب صفحة معينة؟",
-   "نعم، يمكن العمل على صفحات محددة إذا كانت تمثل أولوية للنشاط التجاري، مع مراعاة المنافسة وحالة الصفحة."
-  ],
-  [
-   "هل يمكن الجمع بين SEO والإعلانات؟",
-   "نعم، في كثير من الحالات يكون الدمج بينهما وسيلة فعالة لتحقيق نتائج قصيرة وطويلة المدى."
-  ],
-  [
-   "هل تشمل الخدمة تحسين الصور؟",
-   "نعم، نهتم بتحسين الصور من حيث الحجم، واسم الملف، والنص البديل (Alt Text) لدعم الأداء وتجربة المستخدم."
-  ],
-  [
-   "هل يمكن متابعة تقدم العمل؟",
-   "بالتأكيد، نوفر تقارير دورية وشرحًا للنتائج والخطوات المنفذة."
-  ],
-  [
-   "هل تختلف الخطة من مشروع لآخر؟",
-   "نعم، يتم إعداد استراتيجية تناسب طبيعة النشاط، والجمهور المستهدف، والمنافسة."
-  ],
-  [
-   "كيف أبدأ؟",
-   "كل ما عليك هو التواصل معنا، وسنقوم بدراسة موقعك، وفهم أهدافك، ثم نقترح خطة عمل مناسبة دون التزام مسبق."
-  ]
- ],
- "seo_services": [
-  [
-   "SEO Audit (تحليل الموقع)",
-   [
-    "أي عملية تحسين ناجحة تبدأ بفهم الوضع الحالي للموقع. لذلك نقوم بإجراء تحليل شامل لاكتشاف المشكلات التي قد تؤثر على الأداء في نتائج البحث.",
-    "يشمل التحليل:",
-    "أخطاء الزحف والفهرسة.",
-    "الصفحات التي لا تعمل.",
-    "الروابط المكسورة.",
-    "سرعة الموقع.",
-    "جودة المحتوى.",
-    "بنية الروابط الداخلية.",
-    "توافق الموقع مع الهواتف.",
-    "البيانات المنظمة (Schema).",
-    "وفي نهاية التحليل تحصل على تقرير واضح يوضح المشكلات وأولويات معالجتها."
-   ]
-  ],
-  [
-   "Keyword Research (البحث عن الكلمات المفتاحية)",
-   [
-    "اختيار الكلمات المفتاحية المناسبة هو الأساس الذي تُبنى عليه أي استراتيجية SEO ناجحة.",
-    "لا نبحث فقط عن الكلمات ذات حجم البحث المرتفع، بل نهتم أيضًا بفهم نية الباحث، وتحليل المنافسة، واختيار الكلمات التي تمنح موقعك أفضل فرصة للوصول إلى الجمهور المستهدف.",
-    "نعمل على:",
-    "تحديد الكلمات الرئيسية.",
-    "اكتشاف الكلمات طويلة الذيل (Long-tail Keywords).",
-    "تحليل نية البحث.",
-    "دراسة المنافسين.",
-    "توزيع الكلمات على الصفحات المناسبة."
-   ]
-  ],
-  [
-   "On-Page SEO",
-   [
-    "تحسين صفحات الموقع يساعد محركات البحث على فهم المحتوى بشكل أفضل، كما يحسن تجربة الزائر.",
-    "تشمل أعمالنا:",
-    "تحسين عناوين الصفحات (Meta Title).",
-    "كتابة Meta Description جذابة.",
-    "تنظيم H1 وH2 وH3.",
-    "تحسين بنية المحتوى.",
-    "تحسين الصور وAlt Text.",
-    "تحسين الروابط الداخلية.",
-    "تحسين الروابط الدائمة (URL Slugs)."
-   ]
-  ],
-  [
-   "Technical SEO",
-   [
-    "الجوانب التقنية لها تأثير مباشر على قدرة محركات البحث على الزحف إلى الموقع وفهرسته.",
-    "نعمل على:",
-    "تحسين سرعة الموقع.",
-    "إعداد Sitemap XML.",
-    "ضبط Robots.txt.",
-    "معالجة أخطاء الفهرسة.",
-    "تحسين Core Web Vitals.",
-    "تحسين التوافق مع الهواتف.",
-    "إضافة البيانات المنظمة (Schema).",
-    "إصلاح أخطاء الصفحات."
-   ]
-  ],
-  [
-   "Content Writing",
-   [
-    "المحتوى هو العنصر الذي يربط بين احتياجات المستخدم ومتطلبات محركات البحث.",
-    "نكتب محتوى أصليًا يهدف إلى:",
-    "الإجابة عن أسئلة العملاء.",
-    "استهداف الكلمات المفتاحية المناسبة.",
-    "زيادة مدة بقاء الزائر داخل الموقع.",
-    "دعم صفحات الخدمات.",
-    "بناء الثقة في العلامة التجارية."
-   ]
-  ],
-  [
-   "Internal Linking",
-   [
-    "الروابط الداخلية تساعد المستخدم على التنقل بسهولة، كما تساعد Google على فهم العلاقة بين صفحات الموقع.",
-    "نعمل على إنشاء هيكل روابط منطقي يربط بين:",
-    "صفحات الخدمات.",
-    "المقالات.",
-    "الصفحات المهمة.",
-    "صفحات التواصل.",
-    "مما يعزز قوة الصفحات المهمة داخل الموقع."
-   ]
-  ],
-  [
-   "Schema Markup",
-   [
-    "البيانات المنظمة تساعد محركات البحث على فهم نوع المحتوى الموجود داخل الصفحة بشكل أفضل.",
-    "يمكن استخدام Schema لإبراز:",
-    "الأسئلة الشائعة.",
-    "الخدمات.",
-    "المقالات.",
-    "التقييمات.",
-    "معلومات الشركة.",
-    "وقد تساهم في ظهور نتائج بحث أكثر ثراءً (Rich Results) عندما تستوفي الصفحة متطلبات Google."
-   ]
-  ],
-  [
-   "Core Web Vitals",
-   [
-    "تجربة المستخدم أصبحت من العوامل المهمة في تقييم المواقع.",
-    "نعمل على تحسين مؤشرات الأداء الأساسية مثل:",
-    "سرعة تحميل الصفحة.",
-    "سرعة التفاعل مع العناصر.",
-    "ثبات تصميم الصفحة أثناء التحميل.",
-    "وذلك بهدف تحسين تجربة المستخدم وتقليل معدل مغادرة الزوار."
-   ]
-  ],
-  [
-   "Local SEO",
-   [
-    "إذا كان نشاطك التجاري يخدم منطقة جغرافية محددة، فإن تحسين الظهور المحلي يساعد العملاء القريبين منك على العثور على نشاطك بسهولة.",
-    "تشمل الخدمة:",
-    "تحسين صفحة النشاط التجاري على Google.",
-    "توحيد بيانات الاسم والعنوان ورقم الهاتف.",
-    "تحسين الصفحات المحلية.",
-    "دعم الظهور في نتائج البحث المحلية."
-   ]
-  ],
-  [
-   "E-commerce SEO",
-   [
-    "المتاجر الإلكترونية تحتاج إلى استراتيجية مختلفة بسبب كثرة صفحات المنتجات والتصنيفات.",
-    "نعمل على:",
-    "تحسين صفحات المنتجات.",
-    "تحسين صفحات التصنيفات.",
-    "كتابة أوصاف فريدة.",
-    "تحسين تجربة البحث داخل المتجر.",
-    "معالجة المحتوى المتكرر.",
-    "تحسين مسارات التنقل."
-   ]
-  ],
-  [
-   "Competitor Analysis",
-   [
-    "تحليل المنافسين يساعد على اكتشاف الفرص وتحسين الاستراتيجية.",
-    "نقوم بدراسة:",
-    "الكلمات المفتاحية التي يستهدفها المنافسون.",
-    "جودة المحتوى.",
-    "بنية الموقع.",
-    "نقاط القوة والضعف.",
-    "فرص التفوق في السوق."
-   ]
-  ],
-  [
-   "Google Search Console",
-   [
-    "نساعد في إعداد وربط الموقع مع Google Search Console لمتابعة أداء الموقع في نتائج البحث.",
-    "يساعد ذلك على:",
-    "متابعة الفهرسة.",
-    "اكتشاف الأخطاء.",
-    "مراقبة أداء الكلمات المفتاحية.",
-    "تحليل معدلات النقر."
-   ]
-  ],
-  [
-   "Google Analytics",
-   [
-    "تحليل البيانات جزء أساسي من نجاح أي استراتيجية SEO.",
-    "من خلال Google Analytics يمكن متابعة:",
-    "عدد الزوار.",
-    "مصادر الزيارات.",
-    "الصفحات الأكثر زيارة.",
-    "مدة الجلسات.",
-    "سلوك المستخدم.",
-    "تحقيق الأهداف والتحويلات."
-   ]
-  ],
-  [
-   "Conversion Rate Optimization (CRO)",
-   [
-    "زيادة الزيارات مهمة، لكن الأهم هو تحويل هذه الزيارات إلى عملاء.",
-    "لذلك نهتم بتحسين عناصر الموقع التي تؤثر على اتخاذ القرار، مثل:",
-    "وضوح الدعوات لاتخاذ إجراء (CTA).",
-    "سهولة التنقل.",
-    "سرعة تحميل الصفحات.",
-    "نماذج التواصل.",
-    "تجربة المستخدم.",
-    "الهدف هو تحقيق أفضل استفادة من الزيارات التي يحصل عليها الموقع، وليس فقط زيادة أعدادها."
-   ]
-  ]
- ],
- "wd_faq": [
-  [
-   "ما هي تكلفة تصميم موقع إلكتروني؟",
-   "تعتمد تكلفة تصميم الموقع الإلكتروني على عدة عوامل، مثل عدد الصفحات، ونوع الموقع، والوظائف المطلوبة، وهل يتضمن متجرًا إلكترونيًا أو نظام حجز أو لغات متعددة. لذلك نقدم عروض أسعار مخصصة تناسب احتياجات كل مشروع."
-  ],
-  [
-   "كم يستغرق تصميم موقع إلكتروني؟",
-   "تختلف مدة التنفيذ حسب حجم المشروع، ولكن غالبًا تستغرق المواقع التعريفية من أسبوع إلى ثلاثة أسابيع، بينما قد تحتاج المتاجر الإلكترونية أو المشاريع الكبيرة إلى فترة أطول وفقًا لمتطلبات العمل."
-  ],
-  [
-   "هل سيكون الموقع متوافقًا مع الهواتف المحمولة؟",
-   "نعم، جميع المواقع التي نقوم بتصميمها متجاوبة بالكامل مع الهواتف الذكية والأجهزة اللوحية وأجهزة الكمبيوتر لضمان أفضل تجربة للمستخدم."
-  ],
-  [
-   "هل يمكنني تعديل محتوى الموقع بعد التسليم؟",
-   "بالتأكيد، يتم تسليم الموقع مع لوحة تحكم سهلة الاستخدام تتيح لك تعديل النصوص والصور وإضافة الصفحات أو المقالات دون الحاجة إلى خبرة برمجية."
-  ],
-  [
-   "هل تصميم الموقع يشمل تحسين محركات البحث (SEO)؟",
-   "نقوم بتصميم المواقع وفق أفضل ممارسات SEO من حيث سرعة الموقع، وهيكلة الصفحات، والعناوين، والروابط، ليكون الموقع جاهزًا لبدء تحسين ترتيبه في نتائج البحث. كما نقدم خدمة SEO متكاملة للراغبين في زيادة الظهور على Google."
-  ],
-  [
-   "هل يمكن تصميم متجر إلكتروني؟",
-   "نعم، نقدم خدمات تصميم متاجر إلكترونية احترافية مع إمكانية إدارة المنتجات، وربط وسائل الدفع، وشركات الشحن، وإدارة الطلبات بسهولة."
-  ],
-  [
-   "هل يمكن ربط الموقع بوسائل التواصل الاجتماعي؟",
-   "نعم، يمكن ربط الموقع بحساباتك على Facebook وInstagram وLinkedIn وWhatsApp وغيرها، لتسهيل التواصل مع العملاء وتعزيز حضورك الرقمي."
-  ],
-  [
-   "هل تشمل الخدمة شراء الدومين والاستضافة؟",
-   "يمكننا مساعدتك في اختيار الدومين المناسب وتوفير استضافة سريعة وآمنة، بالإضافة إلى إعداد الموقع بالكامل حتى يصبح جاهزًا للعمل."
-  ],
-  [
-   "هل يمكن تطوير الموقع في المستقبل؟",
-   "نعم، يتم بناء المواقع بطريقة تسمح بإضافة صفحات أو خدمات أو وظائف جديدة في أي وقت دون الحاجة إلى إعادة تصميم الموقع بالكامل."
-  ],
-  [
-   "هل الموقع سيكون سريعًا؟",
-   "نعمل على تحسين سرعة تحميل الموقع باستخدام أفضل الممارسات، مثل ضغط الصور وتحسين الأكواد واختيار استضافة قوية، مما يساهم في تحسين تجربة المستخدم وترتيب الموقع في نتائج البحث."
-  ],
-  [
-   "ما الفرق بين الموقع الإلكتروني وصفحات التواصل الاجتماعي؟",
-   "صفحات التواصل الاجتماعي مهمة للتفاعل مع العملاء، لكنها لا تغني عن الموقع الإلكتروني. الموقع يمنح نشاطك التجاري هوية احترافية، ويتيح لك الظهور في نتائج البحث، والتحكم الكامل في المحتوى، وبناء ثقة أكبر لدى العملاء."
-  ],
-  [
-   "هل تقدمون دعمًا فنيًا بعد تسليم الموقع؟",
-   "نعم، نوفر دعمًا فنيًا لمساعدتك في حل المشكلات والإجابة عن استفساراتك، بالإضافة إلى إمكانية تقديم خدمات الصيانة والتحديث بشكل دوري."
-  ],
-  [
-   "هل يمكن إضافة أكثر من لغة للموقع؟",
-   "نعم، يمكن تصميم مواقع متعددة اللغات لتناسب الشركات التي تستهدف عملاء من دول وأسواق مختلفة."
-  ],
-  [
-   "هل الموقع آمن ضد الاختراق؟",
-   "نلتزم بتطبيق أفضل ممارسات الأمان، مثل استخدام شهادات SSL، وتحديثات النظام، وإعدادات الحماية، مما يساعد على تقليل المخاطر والحفاظ على بيانات الموقع."
-  ],
-  [
-   "هل يمكن نقل موقعي الحالي إلى استضافة جديدة؟",
-   "نعم، نوفر خدمة نقل المواقع إلى استضافة جديدة مع الحفاظ على البيانات وتقليل فترة التوقف قدر الإمكان."
-  ],
-  [
-   "ما هي المعلومات التي أحتاج إلى توفيرها قبل بدء المشروع؟",
-   "عادةً نحتاج إلى شعار الشركة، ونبذة عن النشاط، والخدمات أو المنتجات، وبيانات التواصل، وأي صور أو محتوى ترغب في إضافته، وسنساعدك في استكمال أي عناصر ناقصة."
-  ],
-  [
-   "هل تقدمون تصميمات مخصصة أم تعتمدون على قوالب جاهزة؟",
-   "نعتمد على تصميمات مخصصة تناسب هوية كل نشاط تجاري، مع إمكانية استخدام حلول مرنة عند الحاجة، بما يحقق التوازن بين الجودة والميزانية."
-  ],
-  [
-   "لماذا أختار Brandiva لتصميم موقعي؟",
-   "لأننا نركز على تقديم مواقع تجمع بين التصميم الاحترافي، وسرعة الأداء، وسهولة الاستخدام، والتوافق مع محركات البحث، مع الاهتمام بتحقيق أهداف نشاطك التجاري وليس مجرد إنشاء موقع إلكتروني."
-  ]
- ],
- "wh_faq": [
-  [
-   "هل أحتاج إلى استضافة إذا كان لدي موقع؟",
-   "نعم، فالموقع لا يمكن أن يعمل على الإنترنت دون استضافة توفر له مساحة وموارد التشغيل."
-  ],
-  [
-   "ما الفرق بين الدومين والاستضافة؟",
-   "الدومين هو عنوان موقعك على الإنترنت، أما الاستضافة فهي المكان الذي تُخزن فيه ملفات الموقع وقواعد البيانات."
-  ],
-  [
-   "ما أفضل نوع استضافة لموقع WordPress؟",
-   "تعتمد الإجابة على حجم الموقع وعدد الزوار، لكن غالبًا تكون استضافة WordPress أو VPS خيارًا مناسبًا لمعظم المشاريع."
-  ],
-  [
-   "هل يمكن نقل موقعي إلى استضافة Brandiva؟",
-   "نعم، نقوم بنقل الموقع بالكامل مع الحفاظ على البيانات وتقليل فترة التوقف."
-  ],
-  [
-   "هل توفرون بريدًا إلكترونيًا احترافيًا؟",
-   "نعم، يمكن توفير بريد إلكتروني مرتبط باسم نطاق شركتك."
-  ],
-  [
-   "هل تقدمون نسخًا احتياطيًا للموقع؟",
-   "نعم، نوفر حلول نسخ احتياطي تساعد على استعادة الموقع عند الحاجة."
-  ],
-  [
-   "هل شهادة SSL ضرورية؟",
-   "نعم، فهي تحمي بيانات المستخدمين وتزيد من ثقة الزوار، كما تعد من العوامل التي تؤثر على تحسين محركات البحث."
-  ],
-  [
-   "هل يمكن ترقية خطة الاستضافة لاحقًا؟",
-   "بالتأكيد، يمكن ترقية الخطة بسهولة مع نمو موقعك وزيادة عدد الزوار."
-  ]
- ]
+ }
 }

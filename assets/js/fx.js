@@ -132,8 +132,8 @@ function industries(g, ST) {
   const rows = $('.ind-row');
   rows.forEach((r, i) => {
     const dist = () => Math.max(0, r.scrollWidth - innerWidth + 80);
-    const dir = i % 2 ? -1 : 1; // RTL: positive x moves toward start-end edge
-    g.fromTo(r, { x: () => dir > 0 ? 0 : dist() }, { x: () => dir > 0 ? dist() : 0, ease: 'none',
+    const rtl = document.dir === 'rtl' || document.documentElement.dir === 'rtl', sgn = rtl ? 1 : -1, dir = i % 2 ? -1 : 1;
+    g.fromTo(r, { x: () => dir > 0 ? 0 : sgn * dist() }, { x: () => dir > 0 ? sgn * dist() : 0, ease: 'none',
       scrollTrigger: { trigger: r.parentElement, start: 'top bottom', end: 'bottom top', scrub: .8, invalidateOnRefresh: true } });
   });
 }
@@ -149,7 +149,7 @@ function toc() {
 function clock() {
   const c = $('.clock'); if (!c.length) return;
   const f = new Intl.DateTimeFormat('en-GB', { timeZone: 'Africa/Cairo', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
-  const t = () => c.forEach(e => e.textContent = f.format(new Date()) + ' CAIRO');
+  const t = () => c.forEach(e => e.textContent = f.format(new Date()));
   t(); setInterval(t, 1000);
 }
 
@@ -160,7 +160,8 @@ function tabs() {
     tabs.forEach((t, i) => {
       t.addEventListener('click', () => sel(i));
       t.addEventListener('keydown', e => {
-        const k = { ArrowDown: 1, ArrowLeft: 1, ArrowUp: -1, ArrowRight: -1 }[e.key];
+        const rtl = document.documentElement.dir === 'rtl';
+        const k = { ArrowDown: 1, ArrowUp: -1, ArrowLeft: rtl ? 1 : -1, ArrowRight: rtl ? -1 : 1 }[e.key];
         if (k) { e.preventDefault(); sel((i + k + tabs.length) % tabs.length, true); }
       });
     });

@@ -36,7 +36,6 @@
   .lead{font-size:clamp(1.05rem,1rem + .5vw,1.35rem);color:var(--text-300);max-width:60ch}
   .slant::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--ink-900);clip-path:polygon(0 5vw,100% 0,100% calc(100% - 5vw),0 100%)}
   .slant-rev::before{clip-path:polygon(0 0,100% 5vw,100% 100%,0 calc(100% - 5vw))}
-  [data-todo]{outline:1px dashed rgba(253,186,15,.4);outline-offset:4px}
   .progress{position:fixed;inset-block-start:0;inset-inline:0;height:3px;z-index:200;background:var(--grad);transform:scaleX(0);transform-origin:100% 50%;pointer-events:none}
   /* no-JS safe: reveals hidden only when JS ran */
   .js [data-reveal]{opacity:0;transform:translateY(40px)}

@@ -33,7 +33,7 @@ function header() {
   const btn = document.querySelector('.menu-btn'), menu = document.getElementById('menu');
   if (!btn || !menu) return;
   const set = open => {
-    btn.setAttribute('aria-expanded', open); btn.querySelector('span').textContent = open ? 'إغلاق' : 'القائمة';
+    btn.setAttribute('aria-expanded', open); btn.querySelector('span').textContent = open ? btn.dataset.close : btn.dataset.open;
     menu.classList.toggle('is-open', open);
     open ? lenis?.stop() : lenis?.start();
     document.body.style.overflow = open ? 'hidden' : '';
