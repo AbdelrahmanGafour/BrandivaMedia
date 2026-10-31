@@ -1,0 +1,31 @@
+@layer components {
+/* Contact Form 7 — same look as the static .form */
+.wpcf7{width:100%}
+.wpcf7 form.form{display:grid;gap:1rem}
+.wpcf7 .field{display:grid;gap:.4rem}
+.wpcf7 .field label{font-weight:500;font-size:.95rem;display:grid;gap:.4rem}
+.wpcf7 .field .cap{font-weight:400}
+.wpcf7-form-control-wrap{display:block;position:relative}
+.wpcf7 .field input:not([type=submit]):not([type=checkbox]):not([type=radio]),.wpcf7 .field select,.wpcf7 .field textarea{width:100%;min-height:52px;padding:.8rem 1.1rem;background:var(--ink-900);border:1px solid var(--ink-700);border-radius:var(--r-input);color:inherit;font:inherit;transition:border-color .3s,box-shadow .3s}
+.wpcf7 .field textarea{min-height:140px;resize:vertical}
+.wpcf7 .field select{appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--text-300) 50%),linear-gradient(135deg,var(--text-300) 50%,transparent 50%);background-position:calc(0% + 22px) 55%,calc(0% + 16px) 55%;background-size:6px 6px;background-repeat:no-repeat;padding-inline-start:2.4rem}
+.wpcf7 .field input:focus,.wpcf7 .field select:focus,.wpcf7 .field textarea:focus{outline:none;border-color:var(--yellow-500);box-shadow:0 0 0 3px rgba(253,186,15,.25)}
+.wpcf7 .field input[dir=ltr],.wpcf7 .field input[type=email],.wpcf7 .field input[type=tel]{text-align:start}
+.wpcf7 .wpcf7-not-valid{border-color:#ff8a7a!important}
+.wpcf7 .wpcf7-not-valid-tip{display:block;color:#ff8a7a;font-size:.85rem;margin-block-start:.3rem}
+.wpcf7 .wpcf7-spinner{display:none}
+.wpcf7 .btn .spin{display:none;width:1em;height:1em;border:2px solid currentColor;border-inline-end-color:transparent;border-radius:50%;animation:spin .7s linear infinite}
+.wpcf7 form.submitting .btn .spin{display:inline-block}
+.wpcf7 form.submitting .btn{pointer-events:none;opacity:.8}
+.wpcf7 form .wpcf7-response-output{margin:0;padding:0;border:0;min-height:1.5rem;font-weight:500;font-size:inherit}
+.wpcf7 form.sent .wpcf7-response-output{color:var(--yellow-500)}
+.wpcf7 form.invalid .wpcf7-response-output,.wpcf7 form.failed .wpcf7-response-output,.wpcf7 form.aborted .wpcf7-response-output,.wpcf7 form.spam .wpcf7-response-output,.wpcf7 form.unaccepted .wpcf7-response-output{color:#ff8a7a}
+.wpcf7 .wpcf7-acceptance .wpcf7-list-item,.wpcf7 .wpcf7-checkbox .wpcf7-list-item,.wpcf7 .wpcf7-radio .wpcf7-list-item{margin:0 0 .4rem;display:flex;align-items:center;gap:.5rem}
+.wpcf7 .screen-reader-response{position:absolute;overflow:hidden;clip:rect(1px,1px,1px,1px);height:1px;width:1px;margin:-1px;padding:0;border:0}
+.wpcf7 p{margin:0}
+.wpcf7 br{display:none}
+}
+@layer pages {
+.after-text{margin-block-start:1.25rem}
+.after-text.kw{margin-block-start:1.5rem;color:var(--text-500)}
+}

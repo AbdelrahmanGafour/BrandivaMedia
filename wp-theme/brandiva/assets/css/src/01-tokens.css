@@ -1,0 +1,23 @@
+@layer reset, tokens, base, layout, components, pages, motion;
+
+@layer tokens {
+  :root {
+    --yellow-500:#FDBA0F; --yellow-400:#FFD24D; --yellow-600:#E5A000;
+    --purple-400:#B79EE8; --purple-600:#7B5CD6;
+    --ink-950:#07060B; --ink-900:#0F0D16; --ink-800:#171421; --ink-700:#231F33;
+    --text-100:#fff; --text-300:#BDBDBD; --text-500:#8A8697; --light-bg:#FAF7F0;
+    --font-ar:"IBM Plex Sans Arabic","Cairo",system-ui,sans-serif;
+    --font-lat:"Plus Jakarta Sans","IBM Plex Sans Arabic",system-ui,sans-serif;
+    --font-mono:"Space Mono","IBM Plex Sans Arabic",ui-monospace,monospace;
+    --fs-display:clamp(3rem,9vw,8rem); --fs-h1:clamp(2.25rem,5vw,4.5rem);
+    --fs-h2:clamp(1.75rem,3.5vw,3rem); --fs-h3:clamp(1.25rem,2vw,1.75rem);
+    --fs-body:clamp(1rem,.95rem + .25vw,1.125rem); --fs-label:.75rem;
+    --r-card:28px; --r-input:16px; --r-pill:999px;
+    --container:1320px; --gutter:clamp(1rem,4vw,3rem);
+    --sec:clamp(5rem,12vw,10rem);
+    --ease:cubic-bezier(.22,1,.36,1); --ease-io:cubic-bezier(.65,0,.35,1);
+    --grad:linear-gradient(135deg,var(--yellow-500),var(--purple-400));
+    --header-h:84px;
+    --yellow-rgb:253,186,15; --purple-rgb:183,158,232; --purple6-rgb:123,92,214; --ink-rgb:7,6,11;
+  }
+}

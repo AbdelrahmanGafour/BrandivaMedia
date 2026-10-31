@@ -1,0 +1,40 @@
+@layer motion {
+/* language switch */
+.lang-sw{display:none;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding-inline:.9rem;border:1px solid var(--ink-700);border-radius:var(--r-pill);color:var(--text-100);text-transform:none;transition:border-color .3s,color .3s}
+.lang-sw{font-family:var(--font-ar);font-size:.9rem;font-weight:500}
+.lang-sw:hover{border-color:var(--yellow-500);color:var(--yellow-500)}
+@media (min-width:640px){.lang-sw{display:inline-flex}}
+.menu-foot .link-u[lang]{font-weight:700}
+
+/* English / LTR */
+html[dir=ltr]{--dir:1;--font-ar:"IBM Plex Sans Arabic",system-ui,sans-serif}
+html[dir=rtl]{--dir:-1}
+html[dir=ltr] :is(h1,h2,h3,.display,.menu-links a,.work-row h3,.chip,.marquee-track span,.pstep .n,.tool .logo-t,.slide q){font-family:var(--font-lat);font-weight:800;letter-spacing:-.03em}
+html[dir=ltr] :is(.slide q,.faq summary,.approach li strong,.tab,.ticks li,.btn,.field label){font-family:var(--font-ar)}
+html[dir=ltr] .btn{letter-spacing:0}
+html[dir=ltr] .hero .display{font-size:clamp(2.6rem,5.2vw,5rem);line-height:1.06;max-width:17ch}
+html[dir=ltr] .hero .display .accent em::after{inset-block-end:-.04em}
+html[dir=ltr] .h1{line-height:1.1}
+html[dir=ltr] .phero .h1{font-size:clamp(2rem,4.6vw,3.9rem);line-height:1.1;max-width:20ch}
+html[dir=ltr] .cta-big .display{font-size:clamp(2.4rem,6.5vw,5.6rem)}
+html[dir=ltr] .work-row h3{font-size:clamp(1.9rem,5.6vw,5rem)}
+html[dir=ltr] .marquee-track span{font-size:clamp(2.6rem,8vw,7rem);line-height:1.1}
+html[dir=ltr] .giant{letter-spacing:-.05em}
+html[dir=ltr] .work-row:hover h3{transform:translateX(1.5rem)}
+html[dir=ltr] .approach li:hover{transform:translateX(8px)}
+html[dir=ltr] .ci a.row:hover{transform:translateX(6px)}
+html[dir=ltr] .progress,html[dir=ltr] .speed-bar i,html[dir=ltr] .pbar i{transform-origin:0 50%}
+html[dir=ltr] .pbar i{transform-origin:0 50%}
+/* hero composition mirrored */
+html[dir=ltr] .hero-slash{clip-path:polygon(0 0,68% 0,100% 100%,0 100%);background:linear-gradient(200deg,rgba(var(--purple-rgb),.30),rgba(var(--purple-rgb),.04) 55%,transparent)}
+html[dir=ltr] .hero-slash::after{transform:skewX(15deg)}
+html[dir=ltr] .hero-play{transform:translateY(-52%) scaleX(-1)}
+html[dir=ltr] .phero::before{clip-path:polygon(0 0,65% 0,100% 100%,0 100%);background:linear-gradient(200deg,rgba(var(--purple-rgb),.25),transparent 60%)}
+html[dir=ltr] .pcta::after{clip-path:polygon(0 0,60% 0,100% 100%,0 100%)}
+html[dir=ltr] .phero-fig::before{clip-path:polygon(100% 0,100% 100%,0 100%)}
+html[dir=ltr] .field select{background-position:calc(100% - 22px) 55%,calc(100% - 16px) 55%;padding-inline:1.1rem 2.4rem}
+html[dir=ltr] .btn-ghost::before{transform:translateX(-101%)}
+html[dir=ltr] .work-row::before{background:linear-gradient(270deg,transparent,rgba(var(--purple-rgb),.1))}
+html[dir=ltr] .menu-links a:hover{padding-inline-start:1.5rem}
+@media(max-width:767px){html[dir=ltr] .hero .display{font-size:clamp(2.3rem,10.5vw,3.6rem)}html[dir=ltr] .hero-play{opacity:.28}}
+}
