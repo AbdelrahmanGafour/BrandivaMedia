@@ -59,7 +59,7 @@ def qa(lines):
 ARROW = '<svg class="ico" aria-hidden="true"><use href="assets/img/sprite.svg#arrow"/></svg>'
 def nav():
     return [("index.html", L("الرئيسية", "Home")), ("web-design.html", L("تصميم مواقع", "Web Design")), ("seo.html", L("خدمات SEO", "SEO")), ("web-hosting.html", L("استضافة مواقع", "Hosting")), ("contact.html", L("تواصل معنا", "Contact"))]
-def base(): return SITE + ("" if LANG == "en" else "/ar")
+def base(): return SITE + ("" if LANG == "ar" else "/en")
 
 def faq_html(pairs, open_first=False):
     return '<div class="faq" data-reveal>' + "".join(
@@ -80,7 +80,7 @@ def crumb(items):
 
 def head(file, title, desc, ld, og="assets/img/about-team-1600.webp"):
     url = base() + "/" + file
-    alts = (f'<link rel="alternate" hreflang="en" href="{SITE}/{file}"><link rel="alternate" hreflang="ar" href="{SITE}/ar/{file}"><link rel="alternate" hreflang="x-default" href="{SITE}/{file}">'
+    alts = (f'<link rel="alternate" hreflang="ar" href="{SITE}/{file}"><link rel="alternate" hreflang="en" href="{SITE}/en/{file}"><link rel="alternate" hreflang="x-default" href="{SITE}/{file}">'
             if file != "404.html" else "")
     fonts = ('<link rel="preload" href="assets/fonts/IBMPlexSansArabic-700-arabic.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="assets/fonts/IBMPlexSansArabic-400-arabic.woff2" as="font" type="font/woff2" crossorigin>'
              if LANG == "ar" else '<link rel="preload" href="assets/fonts/PlusJakartaSans-800-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="assets/fonts/IBMPlexSansArabic-400-latin.woff2" as="font" type="font/woff2" crossorigin>')
@@ -111,7 +111,7 @@ def head(file, title, desc, ld, og="assets/img/about-team-1600.webp"):
 
 def header(cur, file="index.html"):
     NAV = nav()
-    sw_href = (f"ar/{file}" if LANG == "en" else f"../{file}")
+    sw_href = (f"en/{file}" if LANG == "ar" else f"../{file}")
     sw = L("EN", "العربية")
     sw_lang = L("en", "ar")
     links = "".join(f'<a href="{u}"{" aria-current=\"page\"" if u == cur else ""}>{t}</a>' for u, t in NAV)
@@ -182,10 +182,10 @@ def page(file, title, desc, ld, body, cur, og=None):
     return head(file, title, desc, ld, og or "assets/img/about-team-1600.webp") + header(cur, file) + f'<main id="main">{body}</main>' + footer()
 
 def write(name, content):
-    if LANG == "ar":
+    if LANG == "en":
         content = re.sub(r'(["\s,(])(assets/|manifest\.webmanifest)', r'\1../\2', content)
-        os.makedirs(f"{ROOT}/ar", exist_ok=True)
-        name = "ar/" + name
+        os.makedirs(f"{ROOT}/en", exist_ok=True)
+        name = "en/" + name
     open(f"{ROOT}/{name}", "w", encoding="utf-8").write(content)
 
 # --------------------------------------------------------------------------- shared sections
