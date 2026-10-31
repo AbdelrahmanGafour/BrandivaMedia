@@ -46,7 +46,7 @@ proc_html = "".join(
 dots = "".join("<span></span>" for _ in PROC)
 
 testi = "".join(
-    f'''<figure class="card slide" data-todo="real client testimonial"><span class="todo-tag mono">PLACEHOLDER</span>
+    f'''<figure class="card slide" data-todo="real client testimonial"><span class="todo-tag mono">{L("مكان مخصص","PLACEHOLDER")}</span>
 <blockquote><q>{L("[TODO] هنا يوضع رأي عميل حقيقي بعد الحصول على موافقته. لا توجد آراء مزيّفة على هذا الموقع.", "[TODO] A real client testimonial goes here once approved. There are no fabricated reviews on this site.")}</q></blockquote>
 <figcaption class="who"><span class="avatar" aria-hidden="true"></span><span><strong>{L("اسم العميل", "Client name")}</strong><br><span class="cap">{L("النشاط — الشركة", "Industry — Company")}</span></span></figcaption></figure>'''
     for _ in range(3))
@@ -79,7 +79,7 @@ body = f'''
 <div class="hero-cta" data-reveal><a class="btn btn-yellow btn-lg" href="contact.html" data-magnetic>{L("اطلب استشارة مجانية", "Request a free consultation")} {ARROW}</a><a class="btn btn-ghost btn-lg" href="#services" data-play>{L("اكتشف خدماتنا", "Explore our services")}</a></div>
 <ul class="trust mono" data-reveal aria-label="{L("ما يميزنا", "What sets us apart")}"><li>{L("تحليل", "Analysis")}</li><li>{L("استراتيجية", "Strategy")}</li><li>{L("تنفيذ", "Execution")}</li><li>{L("قياس", "Measurement")}</li></ul>
 </div>
-<a class="scroll-cue mono" href="#services" aria-label="{L("انزل للأسفل", "Scroll down")}"><i></i><span>SCROLL</span></a>
+<a class="scroll-cue mono" href="#services" aria-label="{L("انزل للأسفل", "Scroll down")}"><i></i><span>{L("انزل","SCROLL")}</span></a>
 </section>
 
 <section class="section" id="services" aria-labelledby="services-h">
@@ -98,7 +98,7 @@ body = f'''
 <article class="card b-metrics"><span class="mono y">{L("نتائج قابلة للقياس", "Measurable results")}</span><h3>{L("نقيس كل خطوة بمؤشرات أداء واضحة", "We measure every step with clear performance indicators")}</h3>
 <div class="metrics"><div><b data-count="3">3</b><span>{L("خدمات رئيسية", "Core services")}</span></div><div><b data-count="14">14</b><span>{L("خدمة SEO متخصصة", "Specialized SEO services")}</span></div><div><b data-count="7">7</b><span>{L("خطوات لتنفيذ موقعك", "Steps to launch your site")}</span></div></div></article>
 <article class="card b-speed"><span class="mono y">{L("سرعة", "Speed")}</span><h3>{L("سرعة تحميل عالية", "Fast loading times")}</h3><p>{L("نحسّن الصور ونضغط الملفات ونستخدم أحدث تقنيات البرمجة.", "We optimize images, compress files and use modern development techniques.")}</p><div class="speed-bar" aria-hidden="true"><i></i></div><span class="cap">{L("مثال توضيحي", "Illustrative example")}</span></article>
-<article class="card b-serp"><span class="mono y">SEO-friendly</span><h3>{L("جاهز لمحركات البحث من اليوم الأول", "Search-ready from day one")}</h3><p>{L("هيكلة عناوين صحيحة، روابط نظيفة، وCore Web Vitals وSchema.", "Proper heading structure, clean URLs, Core Web Vitals and Schema.")}</p>
+<article class="card b-serp"><span class="mono y">{L("صديق لمحركات البحث","SEO-friendly")}</span><h3>{L("جاهز لمحركات البحث من اليوم الأول", "Search-ready from day one")}</h3><p>{L("هيكلة عناوين صحيحة، روابط نظيفة، وCore Web Vitals وSchema.", "Proper heading structure, clean URLs, Core Web Vitals and Schema.")}</p>
 <div class="serp" aria-hidden="true" dir="{L("rtl","ltr")}"><small>brandivamedia.com › web-design</small><b>{L("تصميم مواقع احترافية | Brandiva", "Professional Web Design | Brandiva")}</b><p>{L("مواقع سريعة ومتوافقة مع محركات البحث ومتجاوبة مع جميع الأجهزة…", "Fast, search-friendly, fully responsive websites…")}</p></div><span class="cap">{L("مثال توضيحي لنتيجة بحث", "Illustrative search result")}</span></article>
 <article class="card b-logo" aria-hidden="true"><img src="assets/img/logo.webp" alt="" width="300" height="199" loading="lazy" decoding="async"></article>
 <article class="card b-rep"><span class="mono y">{L("تقارير", "Reports")}</span><h3>{L("تقارير دورية", "Regular reports")}</h3><p>{L("تقارير توضح تقدم العمل وأثر التحسينات المنفذة.", "Reports showing progress and the impact of every improvement.")}</p><svg class="spark" viewBox="0 0 200 70" aria-hidden="true"><path d="M2 60 C30 58 40 40 70 44 S110 20 135 26 S175 8 198 6"/></svg></article>
@@ -108,7 +108,7 @@ body = f'''
 
 <section class="marquees" aria-label="{L("كلمات مفتاحية", "Keywords")}">
 {marquee(L(["تحليل", "استراتيجية", "تصميم", "سرعة", "أمان", "نتائج"], ["Analysis", "Strategy", "Design", "Speed", "Security", "Results"]), d=0)}
-{marquee(["ANALYSIS", "STRATEGY", "DESIGN", "SPEED", "SECURITY", "RESULTS"], d=1, outline=True)}
+{marquee(L(["تحليل", "استراتيجية", "تصميم", "سرعة", "أمان", "نتائج"], ["ANALYSIS", "STRATEGY", "DESIGN", "SPEED", "SECURITY", "RESULTS"]), d=1, outline=True)}
 </section>
 
 <section class="section process" id="process" aria-labelledby="process-h">
