@@ -57,7 +57,7 @@ html:not(.js) .nav-desktop{display:flex;flex-wrap:wrap}
 /* preloader */
 .preloader{display:none}
 .js .preloader{position:fixed;inset:0;z-index:999;display:grid;place-items:center;background:var(--ink-950)}
-.preloader img{width:min(52vw,260px);height:auto}
+.preloader img{width:min(40vw,150px);height:auto}
 .preloader.done{display:none}
 
 /* cursor */

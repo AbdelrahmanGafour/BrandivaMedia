@@ -65,10 +65,10 @@ function preloader() {
   if (seen || reduce || !window.gsap) { pre.remove(); return ready(); }
   sessionStorage.setItem('bv-seen', '1');
   document.body.style.overflow = 'hidden';
-  const logo = pre.querySelector('img');
+  const logo = new Image(); logo.src = pre.dataset.logo; logo.alt = ''; logo.width = 300; logo.height = 199; pre.append(logo);
   const done = () => { document.body.style.overflow = ''; pre.remove(); ready(); };
   const tl = gsap.timeline({ onComplete: done });
-  tl.fromTo(logo, { opacity: 0, scale: .86, y: 12 }, { opacity: 1, scale: 1, y: 0, duration: .9, ease: 'expo.out' })
+  tl.from(logo, { scale: .86, y: 12, duration: .9, ease: 'expo.out' })
     .to(logo, { scale: 1.08, duration: .5, ease: 'power2.in' }, '+=.25')
     .to(pre, { clipPath: 'polygon(0 0,100% 0,100% 0,0 0)', duration: .9, ease: 'expo.inOut' }, '-=.05');
   setTimeout(() => { if (document.body.contains(pre)) { tl.progress(1); } }, 4500);

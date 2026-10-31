@@ -65,7 +65,7 @@ play_svg = '''<canvas class="p-canvas" width="480" height="460" data-src="assets
 <path class="p-line two" d="M60 40 L360 230 L60 420Z" transform="translate(-26 -18)"/>
 <path class="p-line" d="M60 40 L360 230 L60 420Z"/></svg>'''
 
-pre = '''<div class="preloader" aria-hidden="true"><img src="assets/img/logo.webp" alt="" width="300" height="199"></div>'''
+pre = '''<div class="preloader" aria-hidden="true" data-logo="assets/img/logo.webp"></div>'''
 
 body = f'''
 <section class="hero" aria-labelledby="hero-title">
@@ -142,7 +142,7 @@ body = f'''
 </div></section>
 
 <section class="cta-big" id="contact" aria-labelledby="cta-h">
-<div class="bg-marq" aria-hidden="true">{marquee(["BRANDIVA", "MEDIA"], d=1, outline=True)}</div>
+<div class="bg-marq" aria-hidden="true" inert>{marquee(["BRANDIVA", "MEDIA"], d=1, outline=True)}</div>
 <div class="container cta-grid">
 <div><p class="eyebrow mono" data-reveal>{L("ابدأ الآن", "Get started")}</p><h2 class="display" id="cta-h" data-split>{L("لا تؤجل نمو نشاطك", "Don't put off growing your business")}</h2>
 <p class="lead" style="margin-block:1.25rem" data-reveal>{L("تواصل معنا وسندرس موقعك ونفهم أهدافك، ثم نقترح خطة عمل مناسبة دون التزام مسبق.", "Get in touch and we'll review your site, understand your goals, and propose a suitable plan — no commitment.")}</p>
