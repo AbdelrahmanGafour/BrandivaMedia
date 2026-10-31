@@ -65,9 +65,7 @@ play_svg = '''<canvas class="p-canvas" width="480" height="460" data-src="assets
 <path class="p-line two" d="M60 40 L360 230 L60 420Z" transform="translate(-26 -18)"/>
 <path class="p-line" d="M60 40 L360 230 L60 420Z"/></svg>'''
 
-pre = '''<div class="preloader" aria-hidden="true"><svg viewBox="-20 -20 260 290"><polygon class="st" points="0,0 70,0 70,170 38,248 0,212" stroke="#B79EE8"/><polygon class="fl" points="0,0 70,0 70,170 38,248 0,212" fill="#B79EE8"/>
-<path class="st" d="M88 17H136C173 17 197 38 197 66C197 88 192 102 188 112C204 122 208 142 208 168C208 204 182 233 140 233H52L88 166Z" stroke="#FDBA0F" style="stroke-width:34"/>
-<polygon class="st fl" points="114,76 172,124 114,172" stroke="#FDBA0F" style="fill:#FDBA0F;stroke-width:6"/></svg></div>'''
+pre = '''<div class="preloader" aria-hidden="true"><img src="assets/img/logo.webp" alt="" width="300" height="199"></div>'''
 
 body = f'''
 <section class="hero" aria-labelledby="hero-title">
@@ -102,7 +100,7 @@ body = f'''
 <article class="card b-speed"><span class="mono y">{L("سرعة", "Speed")}</span><h3>{L("سرعة تحميل عالية", "Fast loading times")}</h3><p>{L("نحسّن الصور ونضغط الملفات ونستخدم أحدث تقنيات البرمجة.", "We optimize images, compress files and use modern development techniques.")}</p><div class="speed-bar" aria-hidden="true"><i></i></div><span class="cap">{L("مثال توضيحي", "Illustrative example")}</span></article>
 <article class="card b-serp"><span class="mono y">SEO-friendly</span><h3>{L("جاهز لمحركات البحث من اليوم الأول", "Search-ready from day one")}</h3><p>{L("هيكلة عناوين صحيحة، روابط نظيفة، وCore Web Vitals وSchema.", "Proper heading structure, clean URLs, Core Web Vitals and Schema.")}</p>
 <div class="serp" aria-hidden="true" dir="{L("rtl","ltr")}"><small>brandivamedia.com › web-design</small><b>{L("تصميم مواقع احترافية | Brandiva", "Professional Web Design | Brandiva")}</b><p>{L("مواقع سريعة ومتوافقة مع محركات البحث ومتجاوبة مع جميع الأجهزة…", "Fast, search-friendly, fully responsive websites…")}</p></div><span class="cap">{L("مثال توضيحي لنتيجة بحث", "Illustrative search result")}</span></article>
-<article class="card b-logo" aria-hidden="true"><svg viewBox="0 0 220 250"><use href="assets/img/sprite.svg#mark"/></svg></article>
+<article class="card b-logo" aria-hidden="true"><img src="assets/img/logo.webp" alt="" width="300" height="199" loading="lazy" decoding="async"></article>
 <article class="card b-rep"><span class="mono y">{L("تقارير", "Reports")}</span><h3>{L("تقارير دورية", "Regular reports")}</h3><p>{L("تقارير توضح تقدم العمل وأثر التحسينات المنفذة.", "Reports showing progress and the impact of every improvement.")}</p><svg class="spark" viewBox="0 0 200 70" aria-hidden="true"><path d="M2 60 C30 58 40 40 70 44 S110 20 135 26 S175 8 198 6"/></svg></article>
 <article class="card b-support"><span class="mono y">{L("دعم", "Support")}</span><h3>{L("دعم فني مستمر", "Ongoing technical support")}</h3><p>{L("نساعدك في حل المشكلات والإجابة عن استفساراتك بعد تسليم الموقع.", "We help solve issues and answer your questions after delivery.")}</p></article>
 <article class="card b-time"><span class="mono y">{L("التزام", "Commitment")}</span><h3>{L("التزام بالمواعيد", "On-time delivery")}</h3><p>{L("خطة عمل واضحة لضمان تنفيذ المشروع بأعلى جودة وفي الوقت المحدد.", "A clear work plan to deliver your project at the highest quality and on schedule.")}</p></article>

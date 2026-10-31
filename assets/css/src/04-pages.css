@@ -89,7 +89,7 @@
 .spark path{fill:none;stroke:var(--purple-400);stroke-width:3;stroke-linecap:round}
 .cap{color:var(--text-500);font-size:.8rem}
 .b-logo{display:grid;place-items:center;background:linear-gradient(135deg,rgba(123,92,214,.35),rgba(253,186,15,.12))}
-.b-logo svg{width:50%;max-width:140px}
+.b-logo img{width:60%;max-width:300px;height:auto}
 
 /* ===== SPLIT (marquee section) ===== */
 .marquees{display:grid;gap:.5rem;padding-block:clamp(3rem,6vw,5rem);overflow:hidden;position:relative;isolation:isolate}

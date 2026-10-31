@@ -65,14 +65,11 @@ function preloader() {
   if (seen || reduce || !window.gsap) { pre.remove(); return ready(); }
   sessionStorage.setItem('bv-seen', '1');
   document.body.style.overflow = 'hidden';
-  const paths = $('.st', pre);
-  paths.forEach(p => { const L = p.getTotalLength ? p.getTotalLength() : 600; p.style.strokeDasharray = L; p.style.strokeDashoffset = L; });
-  const fills = $('.fl', pre); gsap.set(fills, { opacity: 0 });
+  const logo = pre.querySelector('img');
   const done = () => { document.body.style.overflow = ''; pre.remove(); ready(); };
   const tl = gsap.timeline({ onComplete: done });
-  tl.to(paths, { strokeDashoffset: 0, duration: 1, ease: 'power2.inOut', stagger: .12 })
-    .to(fills, { opacity: 1, duration: .35 }, '-=.25')
-    .to(pre.querySelector('svg'), { scale: 1.15, duration: .4, ease: 'power2.in' })
+  tl.fromTo(logo, { opacity: 0, scale: .86, y: 12 }, { opacity: 1, scale: 1, y: 0, duration: .9, ease: 'expo.out' })
+    .to(logo, { scale: 1.08, duration: .5, ease: 'power2.in' }, '+=.25')
     .to(pre, { clipPath: 'polygon(0 0,100% 0,100% 0,0 0)', duration: .9, ease: 'expo.inOut' }, '-=.05');
   setTimeout(() => { if (document.body.contains(pre)) { tl.progress(1); } }, 4500);
 }

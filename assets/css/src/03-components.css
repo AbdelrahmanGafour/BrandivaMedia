@@ -26,7 +26,8 @@
 .site-header{position:sticky;inset-block-start:0;z-index:90;height:var(--header-h);display:flex;align-items:center;gap:1.5rem;padding-inline:var(--gutter);transition:background .4s,backdrop-filter .4s,border-color .4s;border-block-end:1px solid transparent}
 .site-header.is-stuck{background:rgba(7,6,11,.68);-webkit-backdrop-filter:blur(18px) saturate(1.4);backdrop-filter:blur(18px) saturate(1.4);border-color:rgba(255,255,255,.08)}
 .brand{display:flex;align-items:center;gap:.6rem;margin-inline-end:auto}
-.brand .mark{width:30px;height:34px}
+.brand .logo{height:58px;width:auto;max-width:none}
+.brand .logo-lg{height:100px}
 .wm{font-family:var(--font-lat);font-size:1.25rem;letter-spacing:-.03em;line-height:1;direction:ltr;display:inline-flex;gap:.15em}
 .wm b{color:var(--yellow-500);font-weight:800}.wm i{color:var(--purple-400);font-style:normal;font-weight:400}
 .nav-desktop{display:none;gap:.25rem}
@@ -56,8 +57,7 @@ html:not(.js) .nav-desktop{display:flex;flex-wrap:wrap}
 /* preloader */
 .preloader{display:none}
 .js .preloader{position:fixed;inset:0;z-index:999;display:grid;place-items:center;background:var(--ink-950)}
-.preloader svg{width:min(28vw,120px);height:auto;overflow:visible}
-.preloader .st{fill:none;stroke-width:12}
+.preloader img{width:min(52vw,260px);height:auto}
 .preloader.done{display:none}
 
 /* cursor */
@@ -135,6 +135,6 @@ html:not(.js) .nav-desktop{display:flex;flex-wrap:wrap}
 .socials a{display:grid;place-items:center;min-width:44px;min-height:44px;padding-inline:.9rem;border:1px solid var(--ink-700);border-radius:var(--r-pill);font-size:.85rem;color:var(--text-300)}
 .socials a:hover{background:var(--purple-400);color:var(--ink-950);border-color:var(--purple-400)}
 .easter{cursor:pointer}
-.easter.boom .tri{animation:boom .9s var(--ease)}
+.easter.boom .logo{animation:boom .9s var(--ease)}
 @keyframes boom{40%{transform:scale(1.5) rotate(-12deg)}100%{transform:none}}
 }

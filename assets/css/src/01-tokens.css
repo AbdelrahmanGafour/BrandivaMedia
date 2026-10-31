@@ -17,6 +17,6 @@
     --sec:clamp(5rem,12vw,10rem);
     --ease:cubic-bezier(.22,1,.36,1); --ease-io:cubic-bezier(.65,0,.35,1);
     --grad:linear-gradient(135deg,var(--yellow-500),var(--purple-400));
-    --header-h:76px;
+    --header-h:84px;
   }
 }

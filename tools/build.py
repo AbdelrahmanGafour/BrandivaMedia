@@ -69,7 +69,7 @@ def faq_html(pairs, open_first=False):
 def faq_ld(pairs):
     return {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in pairs]}
 
-ORG = {"@type": "Organization", "@id": SITE + "/#org", "name": "Brandiva Media", "url": SITE + "/", "logo": SITE + "/assets/img/logo-mark.svg",
+ORG = {"@type": "Organization", "@id": SITE + "/#org", "name": "Brandiva Media", "url": SITE + "/", "logo": SITE + "/assets/img/logo.png",
        "sameAs": []}  # TODO: روابط السوشيال
 BIZ = {"@type": ["ProfessionalService", "LocalBusiness"], "@id": SITE + "/#biz", "name": "Brandiva Media", "url": SITE + "/", "image": SITE + "/assets/img/about-team-1600.webp",
        "areaServed": {"@type": "Country", "name": "Egypt"}, "priceRange": "Request a quote",
@@ -98,7 +98,7 @@ def head(file, title, desc, ld, og="assets/img/about-team-1600.webp"):
 <meta property="og:type" content="website"><meta property="og:locale" content="{L("ar_EG","en_US")}"><meta property="og:site_name" content="Brandiva Media">
 <meta property="og:title" content="{ea(title)}"><meta property="og:description" content="{ea(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{SITE}/{og}">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{ea(title)}"><meta name="twitter:description" content="{ea(desc)}"><meta name="twitter:image" content="{SITE}/{og}">
-<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/img/favicon-32.png" type="image/png" sizes="32x32"><link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 <link rel="manifest" href="manifest.webmanifest">
 {fonts}
 <link rel="stylesheet" href="assets/css/site.css">
@@ -121,7 +121,7 @@ def header(cur, file="index.html"):
 <div class="progress" aria-hidden="true"></div>
 <div class="announce"><a class="pill" href="contact.html"><span class="dot"></span><span class="mono">{L("استشارة مجانية","Free consultation")}</span><span>{L("— ابدأ مشروعك","— start your project")}</span></a></div>
 <header class="site-header">
-  <a class="brand" href="index.html"><svg class="mark" width="30" height="34" aria-hidden="true"><use href="assets/img/sprite.svg#mark"/></svg><span class="wm"><b>Brandiva</b><i>Media</i></span></a>
+  <a class="brand" href="index.html"><picture><source srcset="assets/img/logo.webp" type="image/webp"><img class="logo" src="assets/img/logo.png" alt="Brandiva Media" width="87" height="58" decoding="async"></picture></a>
   <nav class="nav-desktop" aria-label="{L("التنقل الرئيسي","Main navigation")}">{links}</nav>
   <a class="lang-sw mono" href="{sw_href}" hreflang="{sw_lang}" lang="{sw_lang}" aria-label="{L("Switch to English","التبديل إلى العربية")}">{sw}</a>
   <a class="btn btn-yellow btn-sm" href="contact.html" data-magnetic>{L("اطلب استشارة","Get a quote")} {ARROW}</a>
@@ -141,7 +141,7 @@ def footer():
   <div class="container">
     <div class="footer-grid">
       <div>
-        <a class="brand easter" href="index.html"><svg class="mark" width="40" height="45" aria-hidden="true"><use href="assets/img/sprite.svg#mark"/></svg><span class="wm" style="font-size:1.6rem"><b>Brandiva</b><i>Media</i></span></a>
+        <a class="brand easter" href="index.html"><picture><source srcset="assets/img/logo.webp" type="image/webp"><img class="logo logo-lg" src="assets/img/logo.png" alt="Brandiva Media" width="150" height="100" decoding="async"></picture></a>
         <p style="margin-block:1rem 1.25rem;max-width:34ch">{L("نصمّم حضورك الرقمي… ونوصّله لعملائك. تصميم مواقع، SEO، واستضافة سريعة وآمنة.","We build your digital presence and bring it to your customers. Web design, SEO and fast, secure hosting.")}</p>
         <div class="socials" aria-label="{L("حسابات التواصل الاجتماعي","Social media")}">
           <a href="#" data-todo="رابط فيسبوك"><span aria-hidden="true">FB</span><span class="sr-only">Facebook</span></a><a href="#" data-todo="رابط انستجرام"><span aria-hidden="true">IG</span><span class="sr-only">Instagram</span></a><a href="#" data-todo="رابط لينكدإن"><span aria-hidden="true">IN</span><span class="sr-only">LinkedIn</span></a><a href="#" data-todo="رابط يوتيوب"><span aria-hidden="true">YT</span><span class="sr-only">YouTube</span></a>
